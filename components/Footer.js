@@ -3,10 +3,12 @@ import Link from "next/link";
 import { config } from "../config/config.yml";
 
 export default function Footer() {
-    return (
-        <div className="footer">
-            {new Date().getFullYear()} {config.author} |
-            <Link a href='https://creativecommons.org/licenses/by-sa/4.0/'> CC BY-SA 4.0</Link>
-        </div>
-    );
+  return (
+    <div className="footer">
+      {new Date().getFullYear()} {config.author} |
+      <Link href="https://creativecommons.org/licenses/by-sa/4.0/">
+        <a title="CC BY-SA">CC BY-SA 4.0</a>
+      </Link>
+    </div>
+  );
 }

@@ -1,7 +1,7 @@
 {
   "devFiles": [
-    "static/development/dll/dll_d6a88dbe3071bd165157.js",
-    "static/development/dll/dll_d6a88dbe3071bd165157.js.map"
+    "static/development/dll/dll_4b8bef20edde04f98d3f.js",
+    "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
   ],
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
@@ -24,7 +24,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/blog/post-two-image-demo": [
+    "/blog/blog-react": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
