@@ -4407,7 +4407,7 @@ const meta = {
   publishDate: "2018-01-01",
   modifiedDate: false,
   seoDescription: "This post has an embedded Twitter card",
-  exclude: false
+  exclude: true
 };
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
@@ -4513,7 +4513,7 @@ const meta = {
   publishDate: "2017-10-02",
   modifiedDate: false,
   seoDescription: "This post demonstrates syntax-hightlighted code in your post.",
-  exclude: false
+  exclude: true
 };
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
@@ -4522,7 +4522,7 @@ const makeShortcode = name => function MDXDefaultShortcode(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 10
     }
   }));
@@ -4544,36 +4544,17 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 30,
       columnNumber: 10
-    }
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(_components_BlogMeta__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    data: props,
-    mdxType: "BlogMeta",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 33,
       columnNumber: 5
     }
-  }, `No need for a title in body. You add the title to the metadata, and it appears here.
-Same for tags and publication date.
-This starter blog is set up for code highlighting like so:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(_code_snippets_post_one__WEBPACK_IMPORTED_MODULE_2__["DemoCode"], {
-    mdxType: "DemoCode",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 5
-    }
-  }));
+  }, `No need for a title in body. You add the title to the metadata, and it appears here. Same for tags and publication date. This starter blog is set up for code highlighting like so:`));
 }
 ;
 MDXContent.isMDXComponent = true;
@@ -4621,7 +4602,7 @@ const meta = {
   publishDate: "2018-11-07",
   modifiedDate: false,
   seoDescription: "This post demonstrates the use of smooth scroll components and reading progress bar.",
-  exclude: false
+  exclude: true
 };
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
@@ -4868,7 +4849,8 @@ const meta = {
   layout: "post",
   publishDate: "2017-12-10",
   hideProgressBar: true,
-  seoDescription: "This post demonstrates how to use images in blog posts."
+  seoDescription: "This post demonstrates how to use images in blog posts.",
+  exclude: true
 };
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
