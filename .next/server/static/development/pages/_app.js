@@ -321,7 +321,14 @@ function Footer() {
       lineNumber: 7,
       columnNumber: 5
     }
-  }, new Date().getFullYear(), " ", _config_config_yml__WEBPACK_IMPORTED_MODULE_2__["config"].author, " |", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, new Date().getFullYear(), " | ", _config_config_yml__WEBPACK_IMPORTED_MODULE_2__["config"].author, " | ", __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 54
+    }
+  }, "\xA0"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "https://creativecommons.org/licenses/by-sa/4.0/",
     __self: this,
     __source: {
@@ -337,7 +344,7 @@ function Footer() {
       lineNumber: 10,
       columnNumber: 9
     }
-  }, "CC BY-SA 4.0")));
+  }, " CC BY-SA 4.0")));
 }
 
 /***/ }),
@@ -852,7 +859,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@your twitter handle", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"}), ({"text":"About", "link":"/about"})], "css":({"primaryColor":"#536DFE", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
+const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Inicio", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
 module.exports = doc.length <= 1 ? doc[0] : doc;
 
 /***/ }),
@@ -5194,12 +5201,12 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 const meta = {
-  title: "Next.js MDX Blog Kit",
-  tags: ["Next.js", "MDX"],
+  title: "Blog de desarrollo web y SEO de Wajari Velásquez",
+  tags: ["React"],
   layout: "post",
-  publishDate: "2011-01-01",
+  publishDate: "2020-05-04",
   modifiedDate: false,
-  seoDescription: "This is the home page."
+  seoDescription: "Blog de desarrollo web en React, Next.js, Node, SEO, linux. Un proyecto personal de Wajari Velásquez"
 };
 
 const makeShortcode = name => function MDXDefaultShortcode(props) {
@@ -5326,7 +5333,7 @@ function MDXContent(_ref) {
       lineNumber: 41,
       columnNumber: 27
     }
-  }), `wajari`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
+  }), `Wajari`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
