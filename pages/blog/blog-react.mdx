@@ -1,11 +1,14 @@
 import BlogMeta from "../../components/BlogMeta";
+import imageUrl from "../../public/static/images/estructura-proyecto.png";
+import codeImage from "../../public/static/images/code-about.png";
+import { DemoCode } from "../../code-snippets/post-one"; 
 
 export const meta = {
     title: "Blog en React",
     tags: ["react", "next"], 
     layout: "post",
-    publishDate: "2020-04-02",
-    modifiedDate: false, // "If used it must be in 'YYYY-MM-DD format' like publishDate"
+    publishDate: "2020-04-11",
+    modifiedDate: false, // "Debes usar el formato americano para las fechas: 'YYYY-MM-DD"
     seoDescription: "Aprende a crear un blog con React y Next para servir contenido estático",
     exclude: false,
     hideProgressBar: false,
@@ -41,4 +44,158 @@ Os explico por qué.
 Buscaba la rapidez e inmediatez del contenido estático. 
 
 Soy un gran fan de [Simplenote](https://simplenote.com/) una aplicación muy sencilla para crear notas creada en React
-por Automattic. 
+por Automattic.  
+
+En ella me he acostumbrado a crear notas usando markdown. Primero, por su sencillez, y después, por la facilidad de uso en cualquier otra plataforma. 
+
+Así que me decidí en buscar ejemplos que me sirvieran de base e inspiración. De todo el contenido (la gran mayoría en ingles) las aproximaciones más importantes fueron: 
+
+- "Building a static blog site with Markdown and Next.js" de [Eduardo Pineda](https://itnext.io/building-a-static-blog-site-with-markdown-and-next-js-702c515389b3)
+- "Build a markdown blog with NextJS" de [Telmo Goncalves](https://dev.to/telmo/build-a-markdown-blog-with-nextjs-4521)
+- "Cómo crear un blog estático con Next.js y Markdown" de [Rafa Moral](https://rmoral.com/article/blog-estatico-con-nextjs-y-markdown)
+
+Intenté todas estas aproximaciones, pero después de probar con cada una de ellas, me quedé con la base que propone **Loren Stewart** que puedes detallar el código en su [GitHub Next JS Blog kit](https://github.com/lorenseanstewart/nextjs-mdx-blog-kit) y todos los detalles de este "starter theme" en la web [React Template](https://react-template.com/blog/next-js-markdown-blog). 
+
+Es ideal porque está pensando para clonar el código, y tiene una base muy limpia, con varias funcionalidades que quería: 
+
+- Barra de progreso en lectura
+- Menú lateral simple y minimalista
+- Poder crear rápido los post con la terminal
+- Metadatos y poder implementar aspectos SEO como metadatos de forma sencilla
+- Buscaba tener las mejores puntuaciones en lighthouse, GT Metrix, y demás herramientas de medición de rendimiento. 
+
+Así que veamos paso a paso la instalación. Manos a la obra.  
+
+## Creando mi blog en Next JS, React y Markdown
+
+### Requerimientos previos: 
+
+- Necesitas tener instalado [Node](https://nodejs.org/es/) 
+- Y tener [NPM](https://www.npmjs.com/)
+
+
+### Clona el proyecto: 
+
+~~~
+git clone https://github.com/lorenseanstewart/nextjs-mdx-blog-kit <El nombre que tu quieras>
+~~~
+
+### Inicializar el entorno de desarrollo
+
+Para ello, lo primero, hacemos nuestro: 
+
+~~~
+npm install
+~~~ 
+
+Para que instale en la carpeta del proyecto todas las dependencias. Una vez que termine ponemos en la terminal: 
+
+~~~
+npm run dev
+~~~
+
+Con este comando se inicializa el entorno de desarrollo en: 'http://localhost:3000/' y vemos los cambios que vayamos implementando en nuestro navegador, 
+cada vez que guardemos cualquiera de nuestros archivos. 
+
+### Empieza la personalización
+
+<img src={imageUrl} className="img-centered" alt="estructura carpetas blog en react" />
+
+Verás que la arquitectura de organización de las carpetas es muy intuitiva. 
+El primer paso es ir a la carpeta **config** y editar el archivo config.yml con los datos de tu proyecto. 
+
+En el mismo definimos el autor, los metadatos, el menú, y los colores primarios para utilizar en el CSS. Muchas de las variables del CSS se definen en este 
+archivo. Para mayores modificaciones, lo explico más adelante. 
+
+### Instala CLI (Command Line Interface)
+
+El blog, como señala en su documentación, procesa páginas en función de los metadatos encontrados y los publica extrayendo la información 
+de los componentes. 
+
+Debes asegurarte de utilizar CLI para crear todas las páginas y nuevas publicaciones.
+
+Para instalarlo, en la terminal, dentro de la carpeta del proyecto, debemos hacer: 
+
+~~~
+npm link
+~~~
+
+Al instalar CLI podemos usar la palabra clave: **blog** para crear nuestros post. Siguiendo el siguiente formato: 
+
+~~~
+blog -t page -f miWeb // Con este comando se crea una nueva página titulada: "miWeb.js"
+blog -t post -f blog-react -m // Con este comando se crea un nuevo post llamado: "blog-react"
+~~~
+
+¿Por qué uso un -m después del título del post? Porque si no identificamos el tipo de archivo, por defecto será un archivo JavaScript. 
+
+Con el -m estoy especificando que sea markdown y ya incorpora de forma automática la cabecera con los siguientes metadatos: 
+
+~~~
+
+import BlogMeta from "../../components/BlogMeta";
+
+export const meta = {
+    title: "Blog en React",
+    tags: ["react", "next"], 
+    layout: "post",
+    publishDate: "2020-04-11",
+    modifiedDate: false, // "Debes usar el formato americano para las fechas: 'YYYY-MM-DD"
+    seoDescription: "Aprende a crear un blog con React y Next para servir contenido estático",
+    exclude: false,
+    hideProgressBar: false,
+}
+
+<BlogMeta data={props} />
+
+~~~
+
+Y esto es lo único que necesitas para tener tu post listo. El crea automáticamente la URL usando el nombre del archivo, 
+y como puedes ver, en la sección meta controlamos si queremos excluirlo (o incluirlo) en el listado del blog. 
+
+Controlas la fecha, los tags, el title, la meta descripción. Debajo simplemente escribimos nuestro post. 
+
+En la documentación oficial tenéis más ejemplos que podemos usar con el comando **blog**, pero quise reflejar lo que creo es más básico: crear un post, 
+y crear una página. 
+
+NOTA: Puntualmente tuve fallos y no me aparecía los post de pruebas que estaba haciendo. Con parar el entorno de desarrollo (Ctrl + ,) y volver a iniciar: 
+'npm run dev' era suficiente.
+
+### CSS
+
+Tal como vimos al principio en el archivo 'config.yml' definimos variables generales del CSS como los colores del tema. 
+
+Pero si queremos modificar el resto de estilos, debemos ir a la carpeta **styles** y modificar el archivo: 'index.js'. 
+
+Yo por ejemplo, cambié la tipografía que traía por defecto para los encabezados y texto. 
+
+Para ello, me descargué la fuente de Google Fonts y la converti al formato: .woff2 para garantizar el menor tamaño posible de mi fuente: Vollkorn y Open Sans. 
+Las guardas en la carpeta: '/public/static/fonts/'. 
+
+Después en el CSS solo debes llamarla de forma habitual con: @font-face. 
+
+Después en el index.js del estilo, podemos modificar el CSS. Recordad que se trata de un archivo JavaScript, eso significa que todo el CSS
+está encapsulado dentro de la constante: globalStyles = css.global. 
+
+No olvidar que podemos utilizar variables del archivo de config para traer por ejemplo los colores: '${config.css.accentColor};'
+
+### Páginas y componentes
+
+Recordemos: Los archivos del post son markdown, al igual que la página de inicio que puedes encontrar en: 'index.mdx' en la carpeta de **pages**. 
+
+Por otra parte, las páginas son componentes de React. El template por defecto trae uno de prueba titulado: 'About' que yo eliminé de este blog. 
+
+Utilicemos el código de este template de ejemplo, pero lo pongo en imagen usando la extensión de Visual Studio: [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+que me parece una chulada ;-) 
+
+<img src={codeImage} className="img-centered" alt="Código de componente about en plantilla" />
+
+Como cualquier componente de React podemos "maquetar" nuestros contenidos usando JSX.  
+
+Lo actualizamos con las 'arrow functions', y podemos "maquetar" nuestro componente. Solo debemos agregarlo al config.yml donde definimos su ruta para el menú. 
+
+En mi caso, lo quise dejar de forma simple. Igual para prácticar (más adelante) crearé algunas secciones más. 
+
+Pues así empezamos. Creando y rompiendo para aprender en este fantástico mundo de la programación en JavaScript. 
+
+¡Larga vida y prosperidad! Nos vemos en próximos post reactivos. 
