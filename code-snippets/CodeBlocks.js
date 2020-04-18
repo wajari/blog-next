@@ -8,10 +8,10 @@ export const CodeBlockJS = props => {
             style={duotonelight}
             showLineNumbers={true}
             customStyle={{
-                fontSize: 14
+                fontSize: 16
             }}
             codeTagProps={{
-                fontSize: 14
+                fontSize: 16
             }}>
             {props.code}
         </SyntaxHighlighter>

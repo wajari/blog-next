@@ -52,7 +52,7 @@ export const globalStyles = css.global`
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
   strong,
@@ -69,7 +69,8 @@ export const globalStyles = css.global`
   h6,
   h6 > * {
     font-family: "Vollkorn", serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 28px; 
   }
   strong {
     color: ${config.css.accentColor};
@@ -129,8 +130,43 @@ export const globalStyles = css.global`
   ol {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 140%;
     word-break: break-word; /* This prevents a bug with the reading progress bar. Leave this style here unless you are removing the reading progress bar. */
+  }
+
+  @media screen and (min-width: 601px) {
+    p,
+  p a,
+  b,
+  em,
+  span,
+  li,
+  ul,
+  ol {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    p,
+  p a,
+  b,
+  em,
+  span,
+  li,
+  ul,
+  ol {
+      font-size: 35px;
+    }
+  }
+  code {
+    font-size: 14px; 
+    background: rgba(0,0,0,.05); 
+    margin-bottom: 1.5em;
+    overflow: auto;
+    max-width: 100%;
+    padding: 20px;
+    display: inline-block; 
   }
 
   code > span {

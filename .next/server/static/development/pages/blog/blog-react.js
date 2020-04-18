@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -120,10 +120,10 @@ const CodeBlockJS = props => {
     style: react_syntax_highlighter_styles_prism__WEBPACK_IMPORTED_MODULE_2__["duotonelight"],
     showLineNumbers: true,
     customStyle: {
-      fontSize: 14
+      fontSize: 16
     },
     codeTagProps: {
-      fontSize: 14
+      fontSize: 16
     },
     __self: undefined,
     __source: {
@@ -2417,13 +2417,13 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 const meta = {
-  title: "Blog en React",
+  title: ["Blog en React"],
   tags: ["react", "next"],
   layout: "post",
   publishDate: "2020-04-11",
   modifiedDate: false,
   // "Debes usar el formato americano para las fechas: 'YYYY-MM-DD"
-  seoDescription: "Aprende a crear un blog con React y Next para servir contenido estático",
+  seoDescription: ["Aprende a crear un blog con React y Next para servir contenido estático"],
   exclude: false,
   hideProgressBar: false
 };
@@ -3418,7 +3418,7 @@ function createSEOConfig(data) {
     description: description,
     openGraph: {
       type: "website",
-      locale: "en_US",
+      locale: "es_ES",
       url: data.canonicalUrl,
       title: data.title,
       description: description,
@@ -3440,7 +3440,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /*!*****************************************!*\
   !*** multi ./pages/blog/blog-react.mdx ***!
   \*****************************************/

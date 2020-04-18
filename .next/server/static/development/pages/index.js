@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2567,7 +2567,7 @@ function createSEOConfig(data) {
     description: description,
     openGraph: {
       type: "website",
-      locale: "en_US",
+      locale: "es_ES",
       url: data.canonicalUrl,
       title: data.title,
       description: description,
@@ -2589,7 +2589,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.mdx ***!
   \*******************************/
