@@ -70,7 +70,7 @@ export const globalStyles = css.global`
   h6 > * {
     font-family: "Vollkorn", serif;
     letter-spacing: 2px;
-    font-size: 28px; 
+    font-size: 22px; 
   }
   strong {
     color: ${config.css.accentColor};
@@ -132,32 +132,6 @@ export const globalStyles = css.global`
     font-size: 18px;
     line-height: 140%;
     word-break: break-word; /* This prevents a bug with the reading progress bar. Leave this style here unless you are removing the reading progress bar. */
-  }
-
-  @media screen and (min-width: 601px) {
-    p,
-  p a,
-  b,
-  em,
-  span,
-  li,
-  ul,
-  ol {
-      font-size: 18px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    p,
-  p a,
-  b,
-  em,
-  span,
-  li,
-  ul,
-  ol {
-      font-size: 35px;
-    }
   }
   code {
     font-size: 14px; 
