@@ -1,5 +1,6 @@
 import React from "react";
 import PostListing from "../components/PostListing";
+import { NextSeo } from 'next-seo'; 
 
 export const meta = {
   title: "Blog <dev> Wajari Velásquez",
@@ -15,6 +16,11 @@ export default function Blog(props) {
   const blogPosts = props.allData.filter(content => content.type == "post");
   return (
     <div className="blog-post-list">
+      <NextSeo
+        title="Blog <dev> Wajari Velásquez"
+        description="Listado de entradas del blog técnico de Wajari Velásquez. Construido con cariño en Next.JS, React y markdown"
+        canonical="https://wajari.dev/blog/"
+      />
       <h1>{meta.title}</h1>
       {blogPosts.map((post, index) => (
         <PostListing key={index} post={post} indes={index} />

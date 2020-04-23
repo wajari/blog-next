@@ -10256,6 +10256,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_BlogMeta__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/BlogMeta */ "./components/BlogMeta.js");
 /* harmony import */ var _public_static_images_wajari_tone_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../public/static/images/wajari-tone.png */ "./public/static/images/wajari-tone.png");
 /* harmony import */ var _public_static_images_wajari_tone_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_wajari_tone_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/lib/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_6__);
 
 
 var _jsxFileName = "/home/wajari/dev/blog-next/pages/index.mdx";
@@ -10263,6 +10265,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 /* @jsx mdx */
+
 
 
 
@@ -10282,7 +10285,7 @@ var makeShortcode = function makeShortcode(name) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 10
       }
     }));
@@ -10303,42 +10306,53 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 10
     }
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 5
-    }
-  }, "Wajari.dev"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_6__["NextSeo"], {
+    title: "Blog de desarrollo web y SEO de Wajari Vel\xE1squez",
+    description: "Blog de desarrollo web en React, Next.js, Node, SEO, linux. Un proyecto personal de Wajari Vel\xE1squez",
+    canonical: "https://wajari.dev/",
+    mdxType: "NextSeo",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
       columnNumber: 5
     }
-  }, "Padawan FullStack JavaScript | React | Consultor SEO"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
       columnNumber: 5
     }
-  }, "Podcaster, blogger, imparto talleres de SEO, ayudo a organizar comunidades tecnol\xF3gicas open source #WordPress y #SEO."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Wajari.dev"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 5
     }
-  }, "En la actualidad form\xE1ndome en JavaScript, React, Node.js, Git. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Padawan FullStack JavaScript | React | Consultor SEO"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
+      columnNumber: 5
+    }
+  }, "Podcaster, blogger, imparto talleres de SEO, ayudo a organizar comunidades tecnol\xF3gicas open source #WordPress y #SEO."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 5
+    }
+  }, "En la actualidad form\xE1ndome en JavaScript, React, Node.js, Git. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 5
     }
   }, "Este es mi ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -10346,14 +10360,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 38,
       columnNumber: 23
     }
   }, "blog"), " enfocado en desarrollo web, linux, SEO t\xE9cnico y reflexiones personales. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 5
     }
   }, "Lo hice con mucho cari\xF1o con React, Next.js y markdown. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
@@ -10363,21 +10377,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 5
     }
   }, "Si quieres saber m\xE1s de mi, tengo un web de contacto en: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -10385,7 +10399,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 7
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10396,7 +10410,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 27
     }
   }), "Wajari")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -10404,7 +10418,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 7
     }
   }, "Un ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10415,7 +10429,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 34
     }
   }), "podcast")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -10423,7 +10437,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 7
     }
   }, "Una ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -10434,7 +10448,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 35
     }
   }), "consultor\xEDa SEO"))));
@@ -10558,7 +10572,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 4:
 /*!***********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fwajari%2Fdev%2Fblog-next%2Fpages%2Findex.mdx ***!
   \***********************************************************************************************************************/
@@ -10581,5 +10595,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

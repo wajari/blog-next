@@ -32695,6 +32695,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_static_images_code_about_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../public/static/images/code-about.png */ "./public/static/images/code-about.png");
 /* harmony import */ var _public_static_images_code_about_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_code_about_png__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _code_snippets_post_one__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../code-snippets/post-one */ "./code-snippets/post-one/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/lib/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_8__);
 
 
 var _jsxFileName = "/home/wajari/dev/blog-next/pages/blog/blog-react.mdx";
@@ -32702,6 +32704,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 /* @jsx mdx */
+
 
 
 
@@ -32726,7 +32729,7 @@ var makeShortcode = function makeShortcode(name) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 24,
         columnNumber: 10
       }
     }));
@@ -32747,8 +32750,19 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 10
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_8__["NextSeo"], {
+    title: "Blog en React",
+    description: "Aprende a crear un blog con React y Next para servir contenido est\xE1tico",
+    canonical: "https://wajari.dev/blog/blog-react",
+    mdxType: "NextSeo",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_BlogMeta__WEBPACK_IMPORTED_MODULE_4__["default"], {
     data: props,
@@ -32756,21 +32770,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 5
     }
   }, "Estreno nuevo blog (y en React, Next y Markdown)"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 5
     }
   }, "Entiendo que se preguntar\xE1n: \xBFQu\xE9 carallo haces Wajari?.\nSiendo fan de ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -32778,28 +32792,28 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 17
     }
   }, "WordPress"), " para que te pones a crear un blog que evidentemente,\ntendr\xE1 una curva de aprendizaje, y retos en la implementaci\xF3n. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 5
     }
   }, "Pues por eso, por salir de mi zona de confort. Ya tengo un blog de \"agencia SEO\", tengo un podcast,\npero los encasill\xE9 en tem\xE1ticas espec\xEDficas. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 5
     }
   }, "Se me ha roto este blog, m\xE1s veces de las que puedo contar con las manos. Pero sali\xF3 adelante. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 5
     }
   }, "Ya que me hice un ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -32807,21 +32821,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 30
     }
   }, "bootcamp de programaci\xF3n"), ", y justo al terminar,\nlleg\xF3 el apocalipsis con el Coronavirus (Covid-19), pues \xBFQu\xE9 mejor que en mis tiempos libres practicar? "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 5
     }
   }, "No es por nada, pero toda una maestr\xEDa de la organizaci\xF3n del tiempo tomando en cuenta, tener que trabajar con\nun hijo de casi 3 a\xF1os en casa, sin guarder\xEDa, ni abuelos que nos puedan ayudar. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 51,
       columnNumber: 5
     }
   }, "Ha sido un reto super interesante. La verdad que ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32832,7 +32846,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 51,
       columnNumber: 61
     }
   }), "React"), " es una tecnolog\xEDa impresionante.\nEn el bootcamp no pudimos ver ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32843,7 +32857,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 54,
       columnNumber: 33
     }
   }), "Next"), " ni ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32854,35 +32868,35 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 56,
       columnNumber: 30
     }
   }), "gatsby"), " as\xED que estuve leyendo\nsu documentaci\xF3n y me parece encaja perfectamente con lo que necesito. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 60,
       columnNumber: 5
     }
   }, "Os explico por qu\xE9. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 61,
       columnNumber: 5
     }
   }, "\xBFQu\xE9 tecnolog\xEDas buscaba y por qu\xE9?"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 62,
       columnNumber: 5
     }
   }, "Buscaba la rapidez e inmediatez del contenido est\xE1tico. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 5
     }
   }, "Soy un gran fan de ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32893,28 +32907,28 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 31
     }
   }), "Simplenote"), " una aplicaci\xF3n muy sencilla para crear notas creada en React\npor Automattic.  "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 67,
       columnNumber: 5
     }
   }, "En ella me he acostumbrado a crear notas usando markdown. Primero, por su sencillez, y despu\xE9s, por la facilidad de uso en cualquier otra plataforma. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 68,
       columnNumber: 5
     }
   }, "As\xED que me decid\xED en buscar ejemplos que me sirvieran de base e inspiraci\xF3n. De todo el contenido (la gran mayor\xEDa en ingles) las aproximaciones m\xE1s importantes fueron: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 69,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -32922,7 +32936,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 7
     }
   }, "\"Building a static blog site with Markdown and Next.js\" de ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32933,7 +32947,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 90
     }
   }), "Eduardo Pineda")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -32941,7 +32955,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 73,
       columnNumber: 7
     }
   }, "\"Build a markdown blog with NextJS\" de ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32952,7 +32966,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 73,
       columnNumber: 70
     }
   }), "Telmo Goncalves")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -32960,7 +32974,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 7
     }
   }, "\"C\xF3mo crear un blog est\xE1tico con Next.js y Markdown\" de ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32971,14 +32985,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 87
     }
   }), "Rafa Moral"))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 5
     }
   }, "Intent\xE9 todas estas aproximaciones, pero despu\xE9s de probar con cada una de ellas, me qued\xE9 con la base que propone ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -32986,7 +33000,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 127
     }
   }, "Loren Stewart"), " que puedes detallar el c\xF3digo en su ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -32997,7 +33011,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 80,
       columnNumber: 217
     }
   }), "GitHub Next JS Blog kit"), " y todos los detalles de este \"starter theme\" en la web ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33008,40 +33022,24 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 82,
       columnNumber: 101
     }
   }), "React Template"), ". "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 85,
       columnNumber: 5
     }
   }, "Es ideal porque est\xE1 pensando para clonar el c\xF3digo, y tiene una base muy limpia, con varias funcionalidades que quer\xEDa: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
-    parentName: "ul",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 7
-    }
-  }, "Barra de progreso en lectura"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
-    parentName: "ul",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 7
-    }
-  }, "Men\xFA lateral simple y minimalista"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -33049,7 +33047,7 @@ function MDXContent(_ref) {
       lineNumber: 87,
       columnNumber: 7
     }
-  }, "Poder crear r\xE1pido los post con la terminal"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+  }, "Barra de progreso en lectura"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -33057,7 +33055,7 @@ function MDXContent(_ref) {
       lineNumber: 88,
       columnNumber: 7
     }
-  }, "Metadatos y poder implementar aspectos SEO como metadatos de forma sencilla"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+  }, "Men\xFA lateral simple y minimalista"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -33065,32 +33063,48 @@ function MDXContent(_ref) {
       lineNumber: 89,
       columnNumber: 7
     }
-  }, "Buscaba tener las mejores puntuaciones en lighthouse, GT Metrix, y dem\xE1s herramientas de medici\xF3n de rendimiento. ")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Poder crear r\xE1pido los post con la terminal"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+    parentName: "ul",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 7
+    }
+  }, "Metadatos y poder implementar aspectos SEO como metadatos de forma sencilla"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+    parentName: "ul",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91,
-      columnNumber: 5
+      columnNumber: 7
     }
-  }, "As\xED que veamos paso a paso la instalaci\xF3n. Manos a la obra.  "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 5
-    }
-  }, "Creando mi blog en Next JS, React y Markdown"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
+  }, "Buscaba tener las mejores puntuaciones en lighthouse, GT Metrix, y dem\xE1s herramientas de medici\xF3n de rendimiento. ")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93,
       columnNumber: 5
     }
-  }, "Requerimientos previos:"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
+  }, "As\xED que veamos paso a paso la instalaci\xF3n. Manos a la obra.  "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94,
+      columnNumber: 5
+    }
+  }, "Creando mi blog en Next JS, React y Markdown"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 5
+    }
+  }, "Requerimientos previos:"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -33098,7 +33112,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 97,
       columnNumber: 7
     }
   }, "Necesitas tener instalado ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33109,7 +33123,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 97,
       columnNumber: 57
     }
   }), "Node"), " "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
@@ -33117,7 +33131,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 7
     }
   }, "Y tener ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33128,21 +33142,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 39
     }
   }), "NPM"))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 104,
       columnNumber: 5
     }
   }, "Clona el proyecto:"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33151,28 +33165,28 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 105,
       columnNumber: 10
     }
   }), "git clone https://github.com/lorenseanstewart/nextjs-mdx-blog-kit <El nombre que tu quieras>\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 107,
       columnNumber: 5
     }
   }, "Inicializar el entorno de desarrollo"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 108,
       columnNumber: 5
     }
   }, "Para ello, lo primero, hacemos nuestro: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 109,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33181,21 +33195,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 109,
       columnNumber: 10
     }
   }), "npm install\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 111,
       columnNumber: 5
     }
   }, "Para que instale en la carpeta del proyecto todas las dependencias. Una vez que termine ponemos en la terminal: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 112,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33204,14 +33218,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 112,
       columnNumber: 10
     }
   }), "npm run dev\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 5
     }
   }, "Con este comando se inicializa el entorno de desarrollo en: '", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33222,14 +33236,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 114,
       columnNumber: 73
     }
   }), "http://localhost:3000/"), "' y vemos los cambios que vayamos implementando en nuestro navegador,\ncada vez que guardemos cualquiera de nuestros archivos. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 5
     }
   }, "Empieza la personalizaci\xF3n"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
@@ -33239,14 +33253,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 119,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 120,
       columnNumber: 5
     }
   }, "Ver\xE1s que la arquitectura de organizaci\xF3n de las carpetas es muy intuitiva.\nEl primer paso es ir a la carpeta ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -33254,49 +33268,49 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 121,
       columnNumber: 37
     }
   }, "config"), " y editar el archivo config.yml con los datos de tu proyecto. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 122,
       columnNumber: 5
     }
   }, "En el mismo definimos el autor, los metadatos, el men\xFA, y los colores primarios para utilizar en el CSS. Muchas de las variables del CSS se definen en este\narchivo. Para mayores modificaciones, lo explico m\xE1s adelante. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 124,
       columnNumber: 5
     }
   }, "Instala CLI (Command Line Interface)"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 125,
       columnNumber: 5
     }
   }, "El blog, como se\xF1ala en su documentaci\xF3n, procesa p\xE1ginas en funci\xF3n de los metadatos encontrados y los publica extrayendo la informaci\xF3n\nde los componentes. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 5
     }
   }, "Debes asegurarte de utilizar CLI para crear todas las p\xE1ginas y nuevas publicaciones."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 128,
       columnNumber: 5
     }
   }, "Para instalarlo, en la terminal, dentro de la carpeta del proyecto, debemos hacer: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 129,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33305,14 +33319,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 129,
       columnNumber: 10
     }
   }), "npm link\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 131,
       columnNumber: 5
     }
   }, "Al instalar CLI podemos usar la palabra clave: ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -33320,14 +33334,14 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 131,
       columnNumber: 59
     }
   }, "blog"), " para crear nuestros post. Siguiendo el siguiente formato: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33336,28 +33350,28 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 10
     }
   }), "blog -t page -f miWeb // Con este comando se crea una nueva p\xE1gina titulada: \"miWeb.js\"\nblog -t post -f blog-react -m // Con este comando se crea un nuevo post llamado: \"blog-react\"\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 135,
       columnNumber: 5
     }
   }, "\xBFPor qu\xE9 uso un -m despu\xE9s del t\xEDtulo del post? Porque si no identificamos el tipo de archivo, por defecto ser\xE1 un archivo JavaScript. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 136,
       columnNumber: 5
     }
   }, "Con el -m estoy especificando que sea markdown y ya incorpora de forma autom\xE1tica la cabecera con los siguientes metadatos: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 137,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("code", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33366,28 +33380,28 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 137,
       columnNumber: 10
     }
   }), "\nimport BlogMeta from \"../../components/BlogMeta\";\n\nexport const meta = {\n    title: \"Blog en React\",\n    tags: [\"react\", \"next\"], \n    layout: \"post\",\n    publishDate: \"2020-04-11\",\n    modifiedDate: false, // \"Debes usar el formato americano para las fechas: 'YYYY-MM-DD\"\n    seoDescription: \"Aprende a crear un blog con React y Next para servir contenido est\xE1tico\",\n    exclude: false,\n    hideProgressBar: false,\n}\n\n<BlogMeta data={props} />\n\n")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 154,
       columnNumber: 5
     }
   }, "Y esto es lo \xFAnico que necesitas para tener tu post listo. El crea autom\xE1ticamente la URL usando el nombre del archivo,\ny como puedes ver, en la secci\xF3n meta controlamos si queremos excluirlo (o incluirlo) en el listado del blog. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 156,
       columnNumber: 5
     }
   }, "Controlas la fecha, los tags, el title, la meta descripci\xF3n. Debajo simplemente escribimos nuestro post. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 157,
       columnNumber: 5
     }
   }, "En la documentaci\xF3n oficial ten\xE9is m\xE1s ejemplos que podemos usar con el comando ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -33395,35 +33409,35 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 157,
       columnNumber: 92
     }
   }, "blog"), ", pero quise reflejar lo que creo es m\xE1s b\xE1sico: crear un post,\ny crear una p\xE1gina. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 159,
       columnNumber: 5
     }
   }, "NOTA: Puntualmente tuve fallos y no me aparec\xEDa los post de pruebas que estaba haciendo. Con parar el entorno de desarrollo (Ctrl + ,) y volver a iniciar:\n'npm run dev' era suficiente."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 161,
       columnNumber: 5
     }
   }, "CSS"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 162,
       columnNumber: 5
     }
   }, "Tal como vimos al principio en el archivo 'config.yml' definimos variables generales del CSS como los colores del tema. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 163,
       columnNumber: 5
     }
   }, "Pero si queremos modificar el resto de estilos, debemos ir a la carpeta ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -33431,56 +33445,56 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 163,
       columnNumber: 84
     }
   }, "styles"), " y modificar el archivo: 'index.js'. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 164,
       columnNumber: 5
     }
   }, "Yo por ejemplo, cambi\xE9 la tipograf\xEDa que tra\xEDa por defecto para los encabezados y texto. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 165,
       columnNumber: 5
     }
   }, "Para ello, me descargu\xE9 la fuente de Google Fonts y la converti al formato: .woff2 para garantizar el menor tama\xF1o posible de mi fuente: Vollkorn y Open Sans.\nLas guardas en la carpeta: '/public/static/fonts/'. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165,
+      lineNumber: 167,
       columnNumber: 5
     }
   }, "Despu\xE9s en el CSS solo debes llamarla de forma habitual con: @font-face. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 168,
       columnNumber: 5
     }
   }, "Despu\xE9s en el index.js del estilo, podemos modificar el CSS. Recordad que se trata de un archivo JavaScript, eso significa que todo el CSS\nest\xE1 encapsulado dentro de la constante: globalStyles = css.global. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 170,
       columnNumber: 5
     }
   }, "No olvidar que podemos utilizar variables del archivo de config para traer por ejemplo los colores: '${config.css.accentColor};'"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 171,
       columnNumber: 5
     }
   }, "P\xE1ginas y componentes"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 172,
       columnNumber: 5
     }
   }, "Recordemos: Los archivos del post son markdown, al igual que la p\xE1gina de inicio que puedes encontrar en: 'index.mdx' en la carpeta de ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
@@ -33488,21 +33502,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 172,
       columnNumber: 147
     }
   }, "pages"), ". "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 173,
       columnNumber: 5
     }
   }, "Por otra parte, las p\xE1ginas son componentes de React. El template por defecto trae uno de prueba titulado: 'About' que yo elimin\xE9 de este blog. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 174,
       columnNumber: 5
     }
   }, "Utilicemos el c\xF3digo de este template de ejemplo, pero lo pongo en imagen usando la extensi\xF3n de Visual Studio: ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
@@ -33513,7 +33527,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 174,
       columnNumber: 124
     }
   }), "Polacode"), "\nque me parece una chulada ;-) "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
@@ -33523,42 +33537,42 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 178,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 179,
       columnNumber: 5
     }
   }, "Como cualquier componente de React podemos \"maquetar\" nuestros contenidos usando JSX.  "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 180,
       columnNumber: 5
     }
   }, "Lo actualizamos con las 'arrow functions', y podemos \"maquetar\" nuestro componente. Solo debemos agregarlo al config.yml donde definimos su ruta para el men\xFA. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 181,
       columnNumber: 5
     }
   }, "En mi caso, lo quise dejar de forma simple. Igual para pr\xE1cticar (m\xE1s adelante) crear\xE9 algunas secciones m\xE1s. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 182,
       columnNumber: 5
     }
   }, "Pues as\xED empezamos. Creando y rompiendo para aprender en este fant\xE1stico mundo de la programaci\xF3n en JavaScript. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 183,
       columnNumber: 5
     }
   }, "\xA1Larga vida y prosperidad! Nos vemos en pr\xF3ximos post reactivos. "));
@@ -33693,7 +33707,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblog%2Fblog-react&absolutePagePath=%2Fhome%2Fwajari%2Fdev%2Fblog-next%2Fpages%2Fblog%2Fblog-react.mdx ***!
   \****************************************************************************************************************************************************/
@@ -33716,5 +33730,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=blog-react.js.map

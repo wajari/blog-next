@@ -1,5 +1,6 @@
 import BlogMeta from "../components/BlogMeta";
 import imageUrl from "../public/static/images/wajari-tone.png";
+import { NextSeo } from 'next-seo'; 
 
 export const meta = {
     title: "Blog de desarrollo web y SEO de Wajari Velásquez",
@@ -9,6 +10,12 @@ export const meta = {
     modifiedDate: false,
     seoDescription: "Blog de desarrollo web en React, Next.js, Node, SEO, linux. Un proyecto personal de Wajari Velásquez"
 };
+
+<NextSeo
+      title="Blog de desarrollo web y SEO de Wajari Velásquez" 
+      description= "Blog de desarrollo web en React, Next.js, Node, SEO, linux. Un proyecto personal de Wajari Velásquez"
+      canonical="https://wajari.dev/"
+      />
 
 # Wajari.dev
 ## Padawan FullStack JavaScript | React | Consultor SEO

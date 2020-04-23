@@ -2,6 +2,7 @@ import BlogMeta from "../../components/BlogMeta";
 import imageUrl from "../../public/static/images/estructura-proyecto.png";
 import codeImage from "../../public/static/images/code-about.png";
 import { DemoCode } from "../../code-snippets/post-one"; 
+import { NextSeo } from 'next-seo'; 
 
 export const meta = {
     title: ["Blog en React"],
@@ -13,6 +14,12 @@ export const meta = {
     exclude: false,
     hideProgressBar: false,
 }
+
+<NextSeo
+      title="Blog en React" 
+      description= "Aprende a crear un blog con React y Next para servir contenido estático"
+      canonical="https://wajari.dev/blog/blog-react"
+      />
 
 <BlogMeta data={props} />
 
