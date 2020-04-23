@@ -85,6 +85,8 @@ export const globalStyles = css.global`
   .blog-layout {
     display: flex;
     flex-direction: column;
+    height: 80vh;
+    width: 98vw;
   }
   img {
     max-width: 100%;

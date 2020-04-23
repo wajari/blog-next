@@ -25,6 +25,13 @@ export const meta = {
 
 # Estreno nuevo blog (y en React, Next y Markdown)
 
+Disclaimer: Soy padawan, significa que estoy aprendiendo. He roto este blog muchas veces
+antes de publicarlo. Si ya estas familiarizado con React y/o Next, entiendo que tendré muchos errores
+pero soy de la opinión de: "Tira, que después analizamos como mejorar", pero no me gusta quedarme inmovilizado. 
+Así que tendré muchos errores, pero creo que aporto valor al publicar mi experiencia. 
+
+Antes de empezar, todo el código de este blog está en [GitHub](https://github.com/wajari/blog-next). 
+
 Entiendo que se preguntarán: ¿Qué carallo haces Wajari?. 
 Siendo fan de **WordPress** para que te pones a crear un blog que evidentemente, 
 tendrá una curva de aprendizaje, y retos en la implementación. 
@@ -160,12 +167,16 @@ export const meta = {
 Y esto es lo único que necesitas para tener tu post listo. El crea automáticamente la URL usando el nombre del archivo, 
 y como puedes ver, en la sección meta controlamos si queremos excluirlo (o incluirlo) en el listado del blog. 
 
-Controlas la fecha, los tags, el title, la meta descripción. Debajo simplemente escribimos nuestro post. 
+Controlas la fecha, los tags, el title, la meta descripción. Esto con un gran asterisco ya que he tenido ciertas
+complicaciones con la parte del SEO (toda una ironía). Te lo cuento más adelante. 
+
+Debajo simplemente escribimos nuestro post. 
 
 En la documentación oficial tenéis más ejemplos que podemos usar con el comando **blog**, pero quise reflejar lo que creo es más básico: crear un post, 
 y crear una página. 
 
-NOTA: Puntualmente tuve fallos y no me aparecía los post de pruebas que estaba haciendo. Con parar el entorno de desarrollo (Ctrl + ,) y volver a iniciar: 
+NOTA: Puntualmente tuve fallos y no me aparecía los post de pruebas que estaba haciendo. En la documentación señalan de hacer: 'npm run clean'. 
+También, fallos puntuales, como en casi todo en la vida, con parar el entorno de desarrollo (Ctrl + ,) y volver a iniciar: 
 'npm run dev' era suficiente.
 
 ### CSS
@@ -188,9 +199,15 @@ No olvidar que podemos utilizar variables del archivo de config para traer por e
 
 ### Páginas y componentes
 
-Recordemos: Los archivos del post son markdown, al igual que la página de inicio que puedes encontrar en: 'index.mdx' en la carpeta de **pages**. 
+Las diferencias entre los post y las páginas es que las páginas se almacenan en la carpeta 'pages/'. 
+Los post en el directorio: 'pages/blog/'.  
 
-Por otra parte, las páginas son componentes de React. El template por defecto trae uno de prueba titulado: 'About' que yo eliminé de este blog. 
+Tampoco debemos poner componentes de React en el directorio de páginas, ya que Next.JS crea una ruta para cada uno de estos componentes, 
+esperando que sean una página entera. Si solo tenemos un componente, lo debemos guardar en 'pages/components/'
+
+Recordemos: Los archivos del post son markdown, y todo gracias [MDX](https://github.com/mdx-js/mdx), al igual que la página de inicio que puedes encontrar en: 'index.mdx' en la carpeta de **pages**. 
+
+Por otra parte, las páginas son componentes (completos) de React. El template por defecto trae uno de prueba titulado: 'About' que yo eliminé de este blog. 
 
 Utilicemos el código de este template de ejemplo, pero lo pongo en imagen usando la extensión de Visual Studio: [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 que me parece una chulada ;-) 
@@ -202,6 +219,57 @@ Como cualquier componente de React podemos "maquetar" nuestros contenidos usando
 Lo actualizamos con las 'arrow functions', y podemos "maquetar" nuestro componente. Solo debemos agregarlo al config.yml donde definimos su ruta para el menú. 
 
 En mi caso, lo quise dejar de forma simple. Igual para prácticar (más adelante) crearé algunas secciones más. 
+
+### SEO
+
+La parte que pensé, sería más fácil del blog se me convirtió en un dolor de cabeza. En la documentación parece todo más fácil, 
+pero tuve muchos problemas porque no se enviaban de forma correcta los metadatos, tal como explicaba al inicio, 
+cuando se crea de forma automática 'export const meta' con todos los datos. 
+
+El SEO en esta plantilla de inicio, se gestiona con un paquete de NPM: [Next SEO](https://www.npmjs.com/package/next-seo). Que es una maravilla. 
+Simplifica mucho la gestión del SEO en los proyectos con Next.js
+
+Ya viene en las dependencias del template, o lo puedes instalar: 
+
+~~~
+npm i next-seo
+~~~
+
+Como puedes ver en su documentación, es muy sencillo, solo debemos hacer la importación en el post o página que queramos utilizar: 
+
+~~~
+import React from 'react';
+import { NextSeo } from 'next-seo';
+ 
+export default () => (
+  <>
+    <NextSeo
+      title="Simple Usage Example"
+      description="A short description goes here."
+      canonical="https://www.canonical.ie/"
+    />
+    <p>Simple Usage</p>
+  </>
+);
+~~~
+
+Y dentro del componente NextSEO definimos los metadatos y podemos agregar datos de Open Graph, podemos definir que una página no se indexe, 
+podemos agregar datos estructurados, etc. 
+
+Está genial. Según la documentación de la plantilla, los metadatos se pasan con solo modificar los datos al crear los post, 
+pero no fui capaz que enviara de forma correcta. Así que tuve que usar el método directo del modulo next-seo, como se los estoy explicando. 
+
+Si más adelante, logro resolver este punto, haré la actualización en el post.
+
+Existen más aspectos que quiero desarrollar en ese sentido, por ejemplo: 
+
+- El archivo robots.txt 
+- El sitemap.xml
+
+Pero son aspectos que con la práctica iré implementando, primero en este blog, y después en el resto de proyectos paralelos que quiero desarrollar en estas 
+tecnologías. 
+
+## Palabras finales
 
 Pues así empezamos. Creando y rompiendo para aprender en este fantástico mundo de la programación en JavaScript. 
 
