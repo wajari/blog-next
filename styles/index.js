@@ -79,14 +79,15 @@ export const globalStyles = css.global`
   .blog-layout,
   .blog-post-list {
     max-width: 740px;
+    height: 80vh;
+    width: 98vw;
     padding: 40px 20px 100px 20px;
     position: relative;
   }
   .blog-layout {
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    width: 98vw;
+    margin: auto;
   }
   img {
     max-width: 100%;
@@ -132,7 +133,7 @@ export const globalStyles = css.global`
   ol {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    line-height: 140%;
+    line-height: 160%;
     word-break: break-word; /* This prevents a bug with the reading progress bar. Leave this style here unless you are removing the reading progress bar. */
   }
   code {

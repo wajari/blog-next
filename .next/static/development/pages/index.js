@@ -371,7 +371,7 @@ var TagBlock = function TagBlock(props) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Inicio", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
+const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
 module.exports = doc.length <= 1 ? doc[0] : doc;
 
 /***/ }),
@@ -10270,12 +10270,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 var meta = {
-  title: "Blog de desarrollo web y SEO de Wajari Velásquez",
+  title: "Wajari Velásquez's Web Development, React, JavaScript and SEO blog",
   tags: ["React"],
   layout: "post",
   publishDate: "2020-05-04",
   modifiedDate: false,
-  seoDescription: "Blog de desarrollo web en React, Next.js, Node, SEO, linux. Un proyecto personal de Wajari Velásquez"
+  seoDescription: "Web Development blog in React. Especially interested in Next.js, Node, SEO, linux. A personal project of Wajari Velásquez"
 };
 
 var makeShortcode = function makeShortcode(name) {
@@ -10310,8 +10310,8 @@ function MDXContent(_ref) {
       columnNumber: 10
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_6__["NextSeo"], {
-    title: "Blog de desarrollo web y SEO de Wajari Vel\xE1squez",
-    description: "Blog de desarrollo web en React, Next.js, Node, SEO, linux. Un proyecto personal de Wajari Vel\xE1squez",
+    title: "Wajari Vel\xE1squez's Web Development, React, JavaScript and SEO blog",
+    description: "Web Development blog in React. Especially interested in Next.js, Node, SEO, linux. A personal project of Wajari Vel\xE1squez",
     canonical: "https://wajari.dev/",
     mdxType: "NextSeo",
     __self: this,
@@ -10334,28 +10334,28 @@ function MDXContent(_ref) {
       lineNumber: 35,
       columnNumber: 5
     }
-  }, "Padawan FullStack JavaScript | React | Consultor SEO"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Padawan FullStack JavaScript | React | SEO Consultant"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 5
     }
-  }, "Podcaster, blogger, imparto talleres de SEO, ayudo a organizar comunidades tecnol\xF3gicas open source #WordPress y #SEO."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Podcaster, blogger, SEO workshops, I help to organize open source technology communities from #WordPress and #SEO."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
       columnNumber: 5
     }
-  }, "En la actualidad form\xE1ndome en JavaScript, React, Node.js, Git. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "Currently training in JavaScript, React, Node.js, Git."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 5
     }
-  }, "Este es mi ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
+  }, "This is my ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("strong", {
     parentName: "p",
     __self: this,
     __source: {
@@ -10363,14 +10363,14 @@ function MDXContent(_ref) {
       lineNumber: 38,
       columnNumber: 23
     }
-  }, "blog"), " enfocado en desarrollo web, linux, SEO t\xE9cnico y reflexiones personales. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "blog"), " focused on Web Development, Linux, Technical SEO and personal thoughts."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39,
       columnNumber: 5
     }
-  }, "Lo hice con mucho cari\xF1o con React, Next.js y markdown. "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
+  }, "I did it with love in React, Next.js and markdown."), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("img", {
     src: _public_static_images_wajari_tone_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     className: "img-centered",
     alt: "Wajari Velasquez",
@@ -10387,7 +10387,7 @@ function MDXContent(_ref) {
       lineNumber: 41,
       columnNumber: 5
     }
-  }, "Si quieres saber m\xE1s de mi, tengo un web de contacto en: "), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
+  }, "If you want to know more about me, I have different contact websites (all resources in Spanish):"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -10421,7 +10421,7 @@ function MDXContent(_ref) {
       lineNumber: 46,
       columnNumber: 7
     }
-  }, "Un ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+  }, "One ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     parentName: "li"
   }, {
     "href": "https://seoparawp.com"
@@ -10430,9 +10430,9 @@ function MDXContent(_ref) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
-      columnNumber: 34
+      columnNumber: 35
     }
-  }), "podcast")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
+  }), "podcast"), " of SEO for WordPress"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -10440,7 +10440,7 @@ function MDXContent(_ref) {
       lineNumber: 49,
       columnNumber: 7
     }
-  }, "Una ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+  }, "A ", Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
     parentName: "li"
   }, {
     "href": "https://ku-seo.com"
@@ -10449,9 +10449,9 @@ function MDXContent(_ref) {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49,
-      columnNumber: 35
+      columnNumber: 33
     }
-  }), "consultor\xEDa SEO"))));
+  }), "SEO consulting"))));
 }
 ;
 MDXContent.isMDXComponent = true;
@@ -10550,7 +10550,7 @@ function createSEOConfig(data) {
     description: description,
     openGraph: {
       type: "website",
-      locale: "es_ES",
+      locale: "en",
       url: data.canonicalUrl,
       title: data.title,
       description: description,
@@ -10572,7 +10572,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!***********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fwajari%2Fdev%2Fblog-next%2Fpages%2Findex.mdx ***!
   \***********************************************************************************************************************/
@@ -10595,5 +10595,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

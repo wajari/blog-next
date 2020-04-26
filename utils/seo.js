@@ -33,7 +33,7 @@ export function createSEOConfig(data) {
         description: description,
         openGraph: {
             type: "website",
-            locale: "es_ES",
+            locale: "en",
             url: data.canonicalUrl,
             title: data.title,
             description: description,

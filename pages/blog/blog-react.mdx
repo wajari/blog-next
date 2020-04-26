@@ -5,157 +5,166 @@ import { DemoCode } from "../../code-snippets/post-one";
 import { NextSeo } from 'next-seo'; 
 
 export const meta = {
-    title: ["Blog en React"],
+    title: ["Blog in React"],
     tags: ["react", "next"], 
     layout: "post",
     publishDate: "2020-04-11",
     modifiedDate: false, // "Debes usar el formato americano para las fechas: 'YYYY-MM-DD"
-    seoDescription: ["Aprende a crear un blog con React y Next para servir contenido estático"],
+    seoDescription: ["Learn how to do a blog with React and Next to serve static content"],
     exclude: false,
     hideProgressBar: false,
 }
 
 <NextSeo
-      title="Blog en React" 
-      description= "Aprende a crear un blog con React y Next para servir contenido estático"
+      title="Blog in React" 
+      description= "Learn how to do a blog with React and Next to serve static content"
       canonical="https://wajari.dev/blog/blog-react"
       />
 
 <BlogMeta data={props} />
 
-# Estreno nuevo blog (y en React, Next y Markdown)
+# New blog premiere (and in React, Next and Markdown)
 
-Disclaimer: Soy padawan, significa que estoy aprendiendo. He roto este blog muchas veces
-antes de publicarlo. Si ya estas familiarizado con React y/o Next, entiendo que tendré muchos errores
-pero soy de la opinión de: "Tira, que después analizamos como mejorar", pero no me gusta quedarme inmovilizado. 
-Así que tendré muchos errores, pero creo que aporto valor al publicar mi experiencia. 
+Disclaimer 1: I am a Padawan, it means I am learning. I have broken this blog many times
+before publishing it. If you are already familiar with React and / or Next, I understand that I will have many errors
+but I am of the opinion of: "Tira" (in spanish is someting like: Do it!), that later we analyze how to improve", but I do not like to remain immobilized.
+So I will have many mistakes, but I think I add value by publishing my experience.
 
-Antes de empezar, todo el código de este blog está en [GitHub](https://github.com/wajari/blog-next). 
+Disclaimer 2: I don't usually write in English. This is another great challenge to get out of my comfort zone. So I will have grammatical errors and 
+I apologize if it is not perfect. It is something that I want to practice in my day to day, and I was excited to have a blog in English, 
+so I considered this project as the perfect point to start.
 
-Entiendo que se preguntarán: ¿Qué carallo haces Wajari?. 
-Siendo fan de **WordPress** para que te pones a crear un blog que evidentemente, 
-tendrá una curva de aprendizaje, y retos en la implementación. 
+Before starting, all the code for this blog is in [GitHub](https://github.com/wajari/blog-next).
 
-Pues por eso, por salir de mi zona de confort. Ya tengo un blog de "agencia SEO", tengo un podcast, 
-pero los encasillé en temáticas específicas. 
+I understand that they will ask themselves: What do you do?
+Being a fan of **WordPress** so you start creating a blog that obviously
+It will have a learning curve, and challenges in his implementation.
 
-Se me ha roto este blog, más veces de las que puedo contar con las manos. Pero salió adelante. 
+Well, that's why, to get out of my comfort zone. I already have an "SEO agency" blog, I have a podcast,
+but I pigeonholed them into specific themes.
 
-Ya que me hice un **bootcamp de programación**, y justo al terminar, 
-llegó el apocalipsis con el Coronavirus (Covid-19), pues ¿Qué mejor que en mis tiempos libres practicar? 
+This blog has been broken, more times than I can count on my hands. But it went ahead.
 
-No es por nada, pero toda una maestría de la organización del tiempo tomando en cuenta, tener que trabajar con
-un hijo de casi 3 años en casa, sin guardería, ni abuelos que nos puedan ayudar. 
+Since I had a **programming bootcamp**, and right after finishing,
+The apocalypse came with the Coronavirus (Covid-19), because what better than to practice in my spare time?
 
-Ha sido un reto super interesante. La verdad que [React](https://es.reactjs.org/) es una tecnología impresionante. 
-En el bootcamp no pudimos ver [Next](https://nextjs.org/) ni [gatsby](https://gatsby.com) así que estuve leyendo 
-su documentación y me parece encaja perfectamente con lo que necesito. 
+It is not for nothing, but a whole mastery of the organization of time taking into account, having to work with
+a son of almost 3 years at home, without a nursery, or grandparents who can help us.
 
-Os explico por qué. 
+It was a super interesting challenge. The truth that [React](https://es.reactjs.org/) is an impressive technology.
+At the bootcamp we couldn't see [Next](https://nextjs.org/) or [gatsby] (https://gatsby.com) so I was reading
+your documentation and I think it fits perfectly with what I need.
 
-## ¿Qué tecnologías buscaba y por qué? 
+I explain why.
 
-Buscaba la rapidez e inmediatez del contenido estático. 
+## What technologies were you looking for and why?
 
-Soy un gran fan de [Simplenote](https://simplenote.com/) una aplicación muy sencilla para crear notas creada en React
-por Automattic.  
+I was looking for the speed and immediacy of static content.
 
-En ella me he acostumbrado a crear notas usando markdown. Primero, por su sencillez, y después, por la facilidad de uso en cualquier otra plataforma. 
+I'm a big fan of [Simplenote](https://simplenote.com/) a very simple app for creating notes created in React
+by Automattic.
 
-Así que me decidí en buscar ejemplos que me sirvieran de base e inspiración. De todo el contenido (la gran mayoría en ingles) las aproximaciones más importantes fueron: 
+In it I have become used to creating notes using markdown. First, for its simplicity, and later, for the ease of use on any other platform.
 
-- "Building a static blog site with Markdown and Next.js" de [Eduardo Pineda](https://itnext.io/building-a-static-blog-site-with-markdown-and-next-js-702c515389b3)
-- "Build a markdown blog with NextJS" de [Telmo Goncalves](https://dev.to/telmo/build-a-markdown-blog-with-nextjs-4521)
-- "Cómo crear un blog estático con Next.js y Markdown" de [Rafa Moral](https://rmoral.com/article/blog-estatico-con-nextjs-y-markdown)
+So I decided to look for examples that would serve as a basis and inspiration. Of all the content (the vast majority in English) 
+the most important approaches were:
 
-Intenté todas estas aproximaciones, pero después de probar con cada una de ellas, me quedé con la base que propone **Loren Stewart** que puedes detallar el código en su [GitHub Next JS Blog kit](https://github.com/lorenseanstewart/nextjs-mdx-blog-kit) y todos los detalles de este "starter theme" en la web [React Template](https://react-template.com/blog/next-js-markdown-blog). 
+- "Building a static blog site with Markdown and Next.js" by [Eduardo Pineda](https://itnext.io/building-a-static-blog-site-with-markdown-and-next-js-702c515389b3)
+- "Build a markdown blog with NextJS" from [Telmo Goncalves] (https://dev.to/telmo/build-a-markdown-blog-with-nextjs-4521)
+- "How to create a static blog with Next.js and Markdown" (in spanish) by [Rafa Moral] (https://rmoral.com/article/blog-estatico-con-nextjs-y-markdown)
 
-Es ideal porque está pensando para clonar el código, y tiene una base muy limpia, con varias funcionalidades que quería: 
+I tried all these approaches, but after trying each one, I was left with the basis that **Loren Stewart** proposes that you can detail the code 
+in their [GitHub Next JS Blog kit](https://github.com/lorenseanstewart/nextjs-mdx-blog-kit) and all the details of this "starter theme" 
+on the web [React Template](https://react-template.com/blog/next-js-markdown-blog).
 
-- Barra de progreso en lectura
-- Menú lateral simple y minimalista
-- Poder crear rápido los post con la terminal
-- Metadatos y poder implementar aspectos SEO como metadatos de forma sencilla
-- Buscaba tener las mejores puntuaciones en lighthouse, GT Metrix, y demás herramientas de medición de rendimiento. 
+It is ideal because os design to cloning the code, and it has a very clean base, with several features that I want:
 
-Así que veamos paso a paso la instalación. Manos a la obra.  
+- Reading progress bar
+- Simple and minimalist side menu
+- Be able to quickly create posts with the terminal
+- Metadata and being able to implement SEO aspects as metadata in a simple way
+- I was looking to have the best scores in lighthouse, GT Metrix, and other performance measurement tools.
 
-## Creando mi blog en Next JS, React y Markdown
+So let's go through the installation step by step. 
 
-### Requerimientos previos: 
+Let's do it.
 
-- Necesitas tener instalado [Node](https://nodejs.org/es/) 
-- Y tener [NPM](https://www.npmjs.com/)
+## Creating my blog in Next JS, React and Markdown
+
+### Prerequisites:
+
+- You need to have install [Node](https://nodejs.org/es/) 
+- And of course [NPM](https://www.npmjs.com/)
 
 
-### Clona el proyecto: 
+### Clone the project:
 
 ~~~
-git clone https://github.com/lorenseanstewart/nextjs-mdx-blog-kit <El nombre que tu quieras>
+git clone https://github.com/lorenseanstewart/nextjs-mdx-blog-kit <Your project name>
 ~~~
 
-### Inicializar el entorno de desarrollo
+### Initialize development environment
 
-Para ello, lo primero, hacemos nuestro: 
+For this, the first thing, we make our:
 
 ~~~
 npm install
 ~~~ 
 
-Para que instale en la carpeta del proyecto todas las dependencias. Una vez que termine ponemos en la terminal: 
+To install all dependencies in the project folder. Once finished we put in the terminal:
 
 ~~~
 npm run dev
 ~~~
 
-Con este comando se inicializa el entorno de desarrollo en: 'http://localhost:3000/' y vemos los cambios que vayamos implementando en nuestro navegador, 
-cada vez que guardemos cualquiera de nuestros archivos. 
+With this command the development environment is initialized in: 'http: // localhost: 3000 /' and we see the changes that we are implementing in our browser,
+every time we save any of our files.
 
-### Empieza la personalización
+### Personalization begins
 
-<img src={imageUrl} className="img-centered" alt="estructura carpetas blog en react" />
+<img src={imageUrl} className="img-centered" alt="File structured in the project" />
 
-Verás que la arquitectura de organización de las carpetas es muy intuitiva. 
-El primer paso es ir a la carpeta **config** y editar el archivo config.yml con los datos de tu proyecto. 
+You will see that the folder organization architecture is very intuitive.
+The first step is to go to the **config** folder and edit the config.yml file with your project data.
 
-En el mismo definimos el autor, los metadatos, el menú, y los colores primarios para utilizar en el CSS. Muchas de las variables del CSS se definen en este 
-archivo. Para mayores modificaciones, lo explico más adelante. 
+In it we define the author, the metadata, the menu, and the primary colors to use in the CSS. Many of the CSS variables are defined in this
+archive. For further modifications, I explain later.
 
-### Instala CLI (Command Line Interface)
+### Install CLI (Command Line Interface)
 
-El blog, como señala en su documentación, procesa páginas en función de los metadatos encontrados y los publica extrayendo la información 
-de los componentes. 
+The blog, as it points out in its documentation, processes pages based on the metadata found and publishes them, extracting the information
+of the components.
 
-Debes asegurarte de utilizar CLI para crear todas las páginas y nuevas publicaciones.
+You should make sure to use CLI to create all pages and new posts.
 
-Para instalarlo, en la terminal, dentro de la carpeta del proyecto, debemos hacer: 
+To install it, in the terminal, inside the project folder, we must do:
 
 ~~~
 npm link
 ~~~
 
-Al instalar CLI podemos usar la palabra clave: **blog** para crear nuestros post. Siguiendo el siguiente formato: 
+When installing CLI we can use the keyword: **blog** to create our posts. Following the following format:
 
 ~~~
-blog -t page -f miWeb // Con este comando se crea una nueva página titulada: "miWeb.js"
-blog -t post -f blog-react -m // Con este comando se crea un nuevo post llamado: "blog-react"
+blog -t page -f miWeb // This command creates a new page titled: "miWeb.js"
+blog -t post -f blog-react -m // With this command a new post is created called: "blog-react"
 ~~~
 
-¿Por qué uso un -m después del título del post? Porque si no identificamos el tipo de archivo, por defecto será un archivo JavaScript. 
+Why do I use a -m after the post title? Because if we do not identify the file type, by default it will be a JavaScript file.
 
-Con el -m estoy especificando que sea markdown y ya incorpora de forma automática la cabecera con los siguientes metadatos: 
+With the -m I am specifying that it is markdown and it already automatically incorporates the header with the following metadata:
 
 ~~~
 
 import BlogMeta from "../../components/BlogMeta";
 
 export const meta = {
-    title: "Blog en React",
+    title: ["Blog in React"],
     tags: ["react", "next"], 
     layout: "post",
     publishDate: "2020-04-11",
-    modifiedDate: false, // "Debes usar el formato americano para las fechas: 'YYYY-MM-DD"
-    seoDescription: "Aprende a crear un blog con React y Next para servir contenido estático",
+    modifiedDate: false, // "You must use the American format for the dates: 'YYYY-MM-DD"
+    seoDescription: ["Learn how to do a blog with React and Next to serve static content"],
     exclude: false,
     hideProgressBar: false,
 }
@@ -164,78 +173,79 @@ export const meta = {
 
 ~~~
 
-Y esto es lo único que necesitas para tener tu post listo. El crea automáticamente la URL usando el nombre del archivo, 
-y como puedes ver, en la sección meta controlamos si queremos excluirlo (o incluirlo) en el listado del blog. 
+And this is the only thing you need to have your post ready. He automatically creates the URL using the file name,
+And as you can see, in the meta section we control whether we want to exclude it (or include it) in the blog listing.
 
-Controlas la fecha, los tags, el title, la meta descripción. Esto con un gran asterisco ya que he tenido ciertas
-complicaciones con la parte del SEO (toda una ironía). Te lo cuento más adelante. 
+You control the date, the tags, the title, the meta description. This with a large asterisk since I have had certain
+complications with the SEO part (quite an irony). I'll tell you later.
 
-Debajo simplemente escribimos nuestro post. 
+Below we simply write our post.
 
-En la documentación oficial tenéis más ejemplos que podemos usar con el comando **blog**, pero quise reflejar lo que creo es más básico: crear un post, 
-y crear una página. 
+In the official documentation you have more examples that we can use with the **blog** command, but I wanted to reflect what I think is more basic: 
+create a post, and create a page.
 
-NOTA: Puntualmente tuve fallos y no me aparecía los post de pruebas que estaba haciendo. En la documentación señalan de hacer: 'npm run clean'. 
-También, fallos puntuales, como en casi todo en la vida, con parar el entorno de desarrollo (Ctrl + ,) y volver a iniciar: 
-'npm run dev' era suficiente.
+NOTE: Punctually I had failures and the test post I was doing did not appear. In the documentation they point to do: 'npm run clean'.
+Also, occasional failures, as in almost everything in life, with stopping the development environment (Ctrl +,) and starting again:
+'npm run dev' was enough.
 
 ### CSS
 
-Tal como vimos al principio en el archivo 'config.yml' definimos variables generales del CSS como los colores del tema. 
+As we saw at the beginning in the file 'config.yml' we define general CSS variables as the theme colors.
 
-Pero si queremos modificar el resto de estilos, debemos ir a la carpeta **styles** y modificar el archivo: 'index.js'. 
+But if we want to modify the rest of the styles, we must go to the **styles** folder and modify the file: 'index.js'.
 
-Yo por ejemplo, cambié la tipografía que traía por defecto para los encabezados y texto. 
+For example, I changed the font that came by default for headings and text.
 
-Para ello, me descargué la fuente de Google Fonts y la converti al formato: .woff2 para garantizar el menor tamaño posible de mi fuente: Vollkorn y Open Sans. 
-Las guardas en la carpeta: '/public/static/fonts/'. 
+To do this, I downloaded the font from Google Fonts and converted it to the format: .woff2 to ensure the smallest possible font size: Vollkorn and Open Sans.
+You save them in the folder: '/public/static/fonts/'.
 
-Después en el CSS solo debes llamarla de forma habitual con: @font-face. 
+Then in the CSS you just have to call it regularly with: @font-face.
 
-Después en el index.js del estilo, podemos modificar el CSS. Recordad que se trata de un archivo JavaScript, eso significa que todo el CSS
-está encapsulado dentro de la constante: globalStyles = css.global. 
+Then in the style's index.js, we can modify the CSS. Remember this is a JavaScript file, that means all CSS
+it is encapsulated within the constant: globalStyles = css.global.
 
-No olvidar que podemos utilizar variables del archivo de config para traer por ejemplo los colores: '${config.css.accentColor};'
+Do not forget that we can use variables from the config file to bring for example the colors: '$ {config.css.accentColor};'
 
-### Páginas y componentes
+### Pages and components
 
-Las diferencias entre los post y las páginas es que las páginas se almacenan en la carpeta 'pages/'. 
-Los post en el directorio: 'pages/blog/'.  
+The difference between posts and pages is that the pages are stored in the 'pages/' folder.
+The posts in the directory: 'pages/blog/'.
 
-Tampoco debemos poner componentes de React en el directorio de páginas, ya que Next.JS crea una ruta para cada uno de estos componentes, 
-esperando que sean una página entera. Si solo tenemos un componente, lo debemos guardar en 'pages/components/'
+We should also not put React components in the pages directory, since Next.JS creates a path for each of these components,
+waiting for them to be a whole page. If we only have one component, we must save it in 'pages/components/'
 
-Recordemos: Los archivos del post son markdown, y todo gracias [MDX](https://github.com/mdx-js/mdx), al igual que la página de inicio que puedes encontrar en: 'index.mdx' en la carpeta de **pages**. 
+Let's remember: The post files are markdown, and all thanks [MDX](https://github.com/mdx-js/mdx), like the home page that you can find at: 'index.mdx' 
+in the **pages** folder.
 
-Por otra parte, las páginas son componentes (completos) de React. El template por defecto trae uno de prueba titulado: 'About' que yo eliminé de este blog. 
+Furthermore, the pages are (complete) components of React. The default template has a test one titled: 'About' that I removed from this blog.
 
-Utilicemos el código de este template de ejemplo, pero lo pongo en imagen usando la extensión de Visual Studio: [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
-que me parece una chulada ;-) 
+Let's use the code from this example template, but put it in image using the Visual Studio extension: [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+I think it's cool ;-)
 
-<img src={codeImage} className="img-centered" alt="Código de componente about en plantilla" />
+<img src = {codeImage} className = "img-centered" alt = "About component code in template" />
 
-Como cualquier componente de React podemos "maquetar" nuestros contenidos usando JSX.  
+Like any React component we can "lay out" our content using JSX.
 
-Lo actualizamos con las 'arrow functions', y podemos "maquetar" nuestro componente. Solo debemos agregarlo al config.yml donde definimos su ruta para el menú. 
+We update it with the 'arrow functions', and we can "layout" our component. We just have to add it to the config.yml where we define its path for the menu.
 
-En mi caso, lo quise dejar de forma simple. Igual para prácticar (más adelante) crearé algunas secciones más. 
+In my case, I wanted to leave it simple. Same for practice (later) I will create more sections.
 
 ### SEO
 
-La parte que pensé, sería más fácil del blog se me convirtió en un dolor de cabeza. En la documentación parece todo más fácil, 
-pero tuve muchos problemas porque no se enviaban de forma correcta los metadatos, tal como explicaba al inicio, 
-cuando se crea de forma automática 'export const meta' con todos los datos. 
+The part I thought would be easier on the blog became a headache. Everything seems easier in the documentation,
+but I had a lot of problems because the metadata was not being sent correctly, as I explained at the beginning,
+when 'export const meta' is automatically created with all the data.
 
-El SEO en esta plantilla de inicio, se gestiona con un paquete de NPM: [Next SEO](https://www.npmjs.com/package/next-seo). Que es una maravilla. 
-Simplifica mucho la gestión del SEO en los proyectos con Next.js
+SEO in this starter template is managed with an NPM package: [Next SEO](https://www.npmjs.com/package/next-seo). Which is wonderful.
+Greatly simplifies SEO management in projects with Next.js
 
-Ya viene en las dependencias del template, o lo puedes instalar: 
+It already comes in the template dependencies, or you can install it:
 
 ~~~
 npm i next-seo
 ~~~
 
-Como puedes ver en su documentación, es muy sencillo, solo debemos hacer la importación en el post o página que queramos utilizar: 
+As you can see in its documentation, it is very simple, we only have to do the import in the post or page that we want to use:
 
 ~~~
 import React from 'react';
@@ -253,24 +263,26 @@ export default () => (
 );
 ~~~
 
-Y dentro del componente NextSEO definimos los metadatos y podemos agregar datos de Open Graph, podemos definir que una página no se indexe, 
-podemos agregar datos estructurados, etc. 
+And within the NextSEO component we define the metadata and we can add Open Graph data, we can define that a page is not indexed,
+we can add structured data etc.
 
-Está genial. Según la documentación de la plantilla, los metadatos se pasan con solo modificar los datos al crear los post, 
-pero no fui capaz que enviara de forma correcta. Así que tuve que usar el método directo del modulo next-seo, como se los estoy explicando. 
+It's great. According to the template documentation, the metadata is passed just by modifying the data when creating the posts,
+but I was not able to send it correctly. So I had to use the direct method of the next-seo module, as I am explaining to you.
 
-Si más adelante, logro resolver este punto, haré la actualización en el post.
+If later I manage to resolve this point, I will do the update in the post.
 
-Existen más aspectos que quiero desarrollar en ese sentido, por ejemplo: 
+There are more aspects that I want to develop in this regard, for example:
 
-- El archivo robots.txt 
-- El sitemap.xml
+- The robots.txt file
+- The sitemap.xml
 
-Pero son aspectos que con la práctica iré implementando, primero en este blog, y después en el resto de proyectos paralelos que quiero desarrollar en estas 
-tecnologías. 
+But they are aspects that with practice I will be implementing, first in this blog, and later in the other parallel projects that I want to develop in these
+technologies.
 
-## Palabras finales
+## Final thoughts
 
-Pues así empezamos. Creando y rompiendo para aprender en este fantástico mundo de la programación en JavaScript. 
+Well this is how we started. Creating and breaking to learn in this fantastic world of JavaScript programming.
 
-¡Larga vida y prosperidad! Nos vemos en próximos post reactivos. 
+Long life and prosperity! 
+
+See you in future reactive posts.
