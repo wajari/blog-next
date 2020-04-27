@@ -41,6 +41,8 @@ export const globalStyles = css.global`
     flex-direction: column;
     flex: 1;
     min-height: 100vh;
+    height: 80vh;
+    width: 98vw;
   }
   .footer {
     font-family: "Open Sans", sans-serif;
@@ -79,8 +81,6 @@ export const globalStyles = css.global`
   .blog-layout,
   .blog-post-list {
     max-width: 740px;
-    height: 80vh;
-    width: 98vw;
     padding: 40px 20px 100px 20px;
     position: relative;
   }
@@ -88,6 +88,7 @@ export const globalStyles = css.global`
     display: flex;
     flex-direction: column;
     margin: auto;
+    width: 98vw;
   }
   img {
     max-width: 100%;
