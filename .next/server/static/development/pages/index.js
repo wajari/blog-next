@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -330,7 +330,7 @@ const TagBlock = props => {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
+const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari.Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
 module.exports = doc.length <= 1 ? doc[0] : doc;
 
 /***/ }),
@@ -2498,7 +2498,7 @@ MDXContent.isMDXComponent = true;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/wajari-tone-8e9674098f4e4b8f96c49f34517047f0.png";
+module.exports = "/_next/static/images/wajari-tone-87145cf172be530ea0f232bc5c02168e.png";
 
 /***/ }),
 
@@ -2603,7 +2603,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/index.mdx ***!
   \*******************************/

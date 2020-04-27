@@ -2,7 +2,7 @@ config:
     author: Wajari Velásquez Fernández
     siteName: Blog de Wajari
     siteDescription: Blog especializado en desarrollo web y SEO 
-    defaultPageTitle: Wajari Dev
+    defaultPageTitle: Wajari.Dev
     blogTitle: Blog
     baseUrl: https://wajari.dev
 

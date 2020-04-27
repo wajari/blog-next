@@ -467,7 +467,7 @@ var TagBlock = function TagBlock(props) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
+const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari.Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
 module.exports = doc.length <= 1 ? doc[0] : doc;
 
 /***/ }),
@@ -32754,7 +32754,7 @@ function MDXContent(_ref) {
       columnNumber: 10
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_8__["NextSeo"], {
-    title: "Blog in React",
+    title: "Blog in React | Wajari.Dev",
     description: "Learn how to do a blog with React and Next to serve static content",
     canonical: "https://wajari.dev/blog/blog-react",
     mdxType: "NextSeo",

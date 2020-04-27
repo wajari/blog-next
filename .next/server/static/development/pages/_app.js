@@ -859,7 +859,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
+const doc = [({"config":({"author":"Wajari Velásquez Fernández", "siteName":"Blog de Wajari", "siteDescription":"Blog especializado en desarrollo web y SEO", "defaultPageTitle":"Wajari.Dev", "blogTitle":"Blog", "baseUrl":"https://wajari.dev", "websiteLogo":"https://cdn.auth0.com/blog/logos/nextjs-logo.png", "twitterHandle":"@wajariv", "twitterCardType":"summary", "navigation":[({"text":"Home", "link":"/"}), ({"text":"Blog", "link":"/blog"})], "css":({"primaryColor":"#e31e24", "accentColor":"#455A64", "lightGray":"#eeeeee", "backgroundColor":"#ffffff", "black":"#333"})})})];
 module.exports = doc.length <= 1 ? doc[0] : doc;
 
 /***/ }),
@@ -4502,7 +4502,7 @@ function MDXContent(_ref) {
       columnNumber: 10
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_6__["NextSeo"], {
-    title: "Blog in React",
+    title: "Blog in React | Wajari.Dev",
     description: "Learn how to do a blog with React and Next to serve static content",
     canonical: "https://wajari.dev/blog/blog-react",
     mdxType: "NextSeo",
@@ -6456,18 +6456,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layouts_SearchLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layouts/SearchLayout */ "./components/layouts/SearchLayout.js");
 /* harmony import */ var _components_PostListing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PostListing */ "./components/PostListing.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/home/wajari/dev/blog-next/pages/search.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const meta = {
-  title: "Search",
-  tags: ["javascript", "python"],
+  title: "Search post by topics | Wajari.dev",
+  tags: ["react", "next", "JavaScript"],
   layout: "page",
   publishDate: "2011-01-01",
   modifiedDate: false,
-  seoDescription: "This page lists all posts with a given tag."
+  seoDescription: "Search post for web development topics in react, next and JavaScript. We will also talk about Linux, SEO and I will tell about my learning process"
 };
 function Search(props) {
   const renderListItems = posts => {
@@ -6479,7 +6482,7 @@ function Search(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 17
       }
     }));
@@ -6492,7 +6495,7 @@ function Search(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 28,
           columnNumber: 20
         }
       }, "No results");
@@ -6500,28 +6503,45 @@ function Search(props) {
   };
 
   const blogPosts = props.allData.filter(content => content.type == "post");
-  return __jsx(_components_layouts_SearchLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_3__["NextSeo"], {
+    title: "Search post by topics | Wajari.Dev",
+    description: "Search post for web development topics in react, next and JavaScript. We will also talk about Linux, SEO and I will tell about my learning process",
+    canonical: "https://wajari.dev/",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }), __jsx(_components_layouts_SearchLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
       columnNumber: 9
     }
   }, __jsx("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 40,
       columnNumber: 13
     }
   }, "Posts tagged: ", __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 41,
       columnNumber: 31
     }
-  }, props.router.query.q)), renderListItems(blogPosts));
+  }, props.router.query.q)), renderListItems(blogPosts)));
 }
 Search.defaultProps = {
   allData: []
@@ -6591,7 +6611,7 @@ module.exports = "/_next/static/images/twitter-card-demo-21bc622f7687e84870b4a8a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/wajari-tone-8e9674098f4e4b8f96c49f34517047f0.png";
+module.exports = "/_next/static/images/wajari-tone-87145cf172be530ea0f232bc5c02168e.png";
 
 /***/ }),
 
