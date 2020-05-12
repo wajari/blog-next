@@ -1,6 +1,8 @@
 import BlogMeta from "../../components/BlogMeta";
 import imageUrl from "../../public/static/images/estructura-proyecto.png";
 import codeImage from "../../public/static/images/code-about.png";
+import lighthouse from "../../public/static/images/lighthouse.png";
+import gtmetrix from "../../public/static/images/gtmetrix.png";
 import { DemoCode } from "../../code-snippets/post-one"; 
 import { NextSeo } from 'next-seo'; 
 
@@ -29,7 +31,7 @@ export const meta = {
 
 I am a Padawan, it means I am learning. I have broken this blog many times
 before publishing it. If you are already familiar with React and / or Next, I understand that I will have many errors
-but I am of the opinion of: "Tira" (in spanish is someting like: Do it!), that later we analyze how to improve", but I do not like to remain immobilized.
+but I am of the opinion of: "Tira" (in spanish is someting like: Do it!), that later we analyze how to improve, but I do not like to remain immobilized.
 
 So I will have many mistakes, but I think I add value by publishing my experience.
 
@@ -63,7 +65,7 @@ their documentation and I think it fits perfectly with what I need.
 
 I explain why.
 
-## What technologies were you looking for and why?
+## What technologies I was looking for and why?
 
 I was looking for the speed and immediacy of static content.
 
@@ -83,7 +85,7 @@ I tried all these approaches, but after trying each one, I was left with the bas
 in their [GitHub Next JS Blog kit](https://github.com/lorenseanstewart/nextjs-mdx-blog-kit) and all the details of this "starter theme" 
 on the web [React Template](https://react-template.com/blog/next-js-markdown-blog).
 
-It is ideal because os design to cloning the code, and it has a very clean base, with several features that I want:
+It is ideal because is design to cloning the code, and it has a very clean base, with several features that I want:
 
 - Reading progress bar
 - Simple and minimalist side menu
@@ -182,7 +184,7 @@ export const meta = {
 And this is the only thing you need to have your post ready. He automatically creates the URL using the file name,
 and as you can see, in the meta section we control whether we want to exclude it (or include it) in the blog listing.
 
-You control the date, the tags, the title, the meta description. This with a large asterisk since I have had certain
+You control the date, the tags, the title, the meta description. This with a large asterisk since I have certain
 complications with the SEO part (quite an irony). I'll tell you later.
 
 Below we simply write our post.
@@ -190,7 +192,7 @@ Below we simply write our post.
 In the official documentation you have more examples that we can use with the **blog** command, but I wanted to reflect what I think is more basic: 
 create a post, and create a page.
 
-NOTE: Punctually I had failures and the test post I was doing did not appear. In the documentation they point to do: 'npm run clean'.
+NOTE: Punctually I had failures and the test post is not appear in the list. In the documentation they point to do: 'npm run clean'.
 Also, occasional failures, as in almost everything in life, with stopping the development environment (Ctrl +,) and starting again:
 'npm run dev' was enough.
 
@@ -270,12 +272,12 @@ export default () => (
 ~~~
 
 And within the NextSEO component we define the metadata and we can add Open Graph data, we can define that a page is not indexed,
-we can add structured data etc.
+we can add structured data, etc.
 
 It's great. According to the template documentation, the metadata is passed just by modifying the data when creating the posts,
 but I was not able to send it correctly. So I had to use the direct method of the next-seo module, as I am explaining to you.
 
-If later I manage to resolve this point, I will do the update in the post.
+If in the future, I manage to resolve this point, I will do the update in the post.
 
 There are more aspects that I want to develop in this regard, for example:
 
@@ -284,6 +286,21 @@ There are more aspects that I want to develop in this regard, for example:
 
 But they are aspects that with practice I will be implementing, first in this blog, and later in the other parallel projects that I want to develop in these
 technologies.
+
+## Website optimization
+
+The theme does what it promises. It’s just amazing. Check out the valuation at lighthouse:
+
+<img src={lighthouse} className="img-centered" alt="lighthouse evaluation from this blog" />
+
+And the evaluation in GTMetrix:
+
+<img src={gtmetrix} className="img-centered" alt="GtMetrix evaluation from this blog" />
+
+I have never had such positive evaluations. It is the most positive aspect of this technology. However, this is only the beginning. 
+I want to use this blog as "testing" (since I don't mind breaking it too much).
+
+Implement and be able to experience everything I'm learning both in React, like this fantastic Next.Js framework.
 
 ## Final thoughts
 

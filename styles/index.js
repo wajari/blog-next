@@ -50,9 +50,11 @@ export const globalStyles = css.global`
     height: 80px;
     width: 100%;
     border-top: 2px solid ${config.css.lightGray};
-    display: flex;
+    display: block;
+    padding: 2%;
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    
     font-size: 16px;
     position: fixed;
     bottom: 0;

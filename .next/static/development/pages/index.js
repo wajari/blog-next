@@ -10572,7 +10572,7 @@ function createSEOConfig(data) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fwajari%2Fdev%2Fblog-next%2Fpages%2Findex.mdx ***!
   \***********************************************************************************************************************/
@@ -10595,5 +10595,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

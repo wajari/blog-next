@@ -307,8 +307,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _config_config_yml__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../config/config.yml */ "./config/config.yml");
 /* harmony import */ var _config_config_yml__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_config_config_yml__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ "react-icons/fa");
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/home/wajari/dev/blog-next/components/Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -318,14 +321,14 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 5
     }
   }, new Date().getFullYear(), " | ", _config_config_yml__WEBPACK_IMPORTED_MODULE_2__["config"].author, " | ", __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 54
     }
   }, "\xA0"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -333,7 +336,7 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 7
     }
   }, __jsx("a", {
@@ -341,10 +344,75 @@ function Footer() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 9
     }
-  }, " CC BY-SA 4.0")));
+  }, " CC BY-SA 4.0")), " ", __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 7
+    }
+  }, "\xA0"), " | ", __jsx("br", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 29
+    }
+  }), "Made with love with ", __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 27
+    }
+  }, "\xA0"), " ", __jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__["FaReact"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 47
+    }
+  }), " ", __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 59
+    }
+  }, "\xA0"), " ", "and Next | ", __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 18
+    }
+  }, "\xA0"), " Thanks to:", __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 48
+    }
+  }, "\xA0"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://github.com/lorenseanstewart/nextjs-mdx-blog-kit",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, __jsx("a", {
+    title: "Next Blog",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }, "Blog kit")));
 }
 
 /***/ }),
@@ -4437,9 +4505,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_static_images_estructura_proyecto_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_estructura_proyecto_png__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _public_static_images_code_about_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../public/static/images/code-about.png */ "./public/static/images/code-about.png");
 /* harmony import */ var _public_static_images_code_about_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_code_about_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _code_snippets_post_one__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../code-snippets/post-one */ "./code-snippets/post-one/index.js");
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next-seo */ "next-seo");
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _public_static_images_lighthouse_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../public/static/images/lighthouse.png */ "./public/static/images/lighthouse.png");
+/* harmony import */ var _public_static_images_lighthouse_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_lighthouse_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _public_static_images_gtmetrix_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../public/static/images/gtmetrix.png */ "./public/static/images/gtmetrix.png");
+/* harmony import */ var _public_static_images_gtmetrix_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_gtmetrix_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _code_snippets_post_one__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../code-snippets/post-one */ "./code-snippets/post-one/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "/home/wajari/dev/blog-next/pages/blog/blog-react.mdx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4452,6 +4524,8 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 /* @jsx mdx */
+
+
 
 
 
@@ -4476,7 +4550,7 @@ const makeShortcode = name => function MDXDefaultShortcode(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 26,
       columnNumber: 10
     }
   }));
@@ -4498,10 +4572,10 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 10
     }
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_6__["NextSeo"], {
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(next_seo__WEBPACK_IMPORTED_MODULE_8__["NextSeo"], {
     title: "Blog in React | Wajari.Dev",
     description: "Learn how to do a blog with React and Next to serve static content",
     canonical: "https://wajari.dev/blog/blog-react",
@@ -4509,7 +4583,7 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(_components_BlogMeta__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4518,21 +4592,21 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 5
     }
   }, `New blog (in React, Next and Markdown)`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -4540,30 +4614,30 @@ function MDXContent(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 8
     }
   }, `Disclaimer 1:`), ` `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 5
     }
   }, `I am a Padawan, it means I am learning. I have broken this blog many times
 before publishing it. If you are already familiar with React and / or Next, I understand that I will have many errors
-but I am of the opinion of: "Tira" (in spanish is someting like: Do it!), that later we analyze how to improve", but I do not like to remain immobilized.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+but I am of the opinion of: "Tira" (in spanish is someting like: Do it!), that later we analyze how to improve, but I do not like to remain immobilized.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 5
     }
   }, `So I will have many mistakes, but I think I add value by publishing my experience.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 48,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -4571,21 +4645,21 @@ but I am of the opinion of: "Tira" (in spanish is someting like: Do it!), that l
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 48,
       columnNumber: 8
     }
   }, `Disclaimer 2:`), ` `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 5
     }
   }, `I don't usually write in English. This is another great challenge to get out of my comfort zone. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 50,
       columnNumber: 5
     }
   }, `So I will have grammatical errors and I apologize if it is not perfect. It is something that I want to practice in my day to day,
@@ -4593,7 +4667,7 @@ and I was excited to have a blog in English, so I considered this project as the
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 52,
       columnNumber: 5
     }
   }, `Before starting, all the code for this blog is in `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4604,14 +4678,14 @@ and I was excited to have a blog in English, so I considered this project as the
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 52,
       columnNumber: 62
     }
   }), `GitHub`), `.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 55,
       columnNumber: 5
     }
   }, `I understand that they will ask themselves: What do you do?
@@ -4620,7 +4694,7 @@ Being a fan of `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("str
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 56,
       columnNumber: 18
     }
   }, `WordPress`), ` so you start creating a blog that obviously
@@ -4628,7 +4702,7 @@ It will have a learning curve, and challenges in his implementation.`), Object(_
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 58,
       columnNumber: 5
     }
   }, `Well, that's why, to get out of my comfort zone. I already have an "SEO agency" blog, I have a podcast,
@@ -4636,14 +4710,14 @@ but I pigeonholed them into specific themes.`), Object(_mdx_js_react__WEBPACK_IM
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 60,
       columnNumber: 5
     }
   }, `This blog has been broken, more times than I can count on my hands. But it went ahead.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 61,
       columnNumber: 5
     }
   }, `Since I had a `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -4651,7 +4725,7 @@ but I pigeonholed them into specific themes.`), Object(_mdx_js_react__WEBPACK_IM
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 61,
       columnNumber: 26
     }
   }, `programming bootcamp`), `, and right after finishing,
@@ -4659,7 +4733,7 @@ The apocalypse came with the Coronavirus (Covid-19), because what better than to
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 63,
       columnNumber: 5
     }
   }, `It is not for nothing, but a whole mastery of the organization of time taking into account, having to work with
@@ -4667,7 +4741,7 @@ a son of almost 3 years at home, without a nursery, or grandparents who can help
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 65,
       columnNumber: 5
     }
   }, `It was a super interesting challenge. The truth that `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4678,7 +4752,7 @@ a son of almost 3 years at home, without a nursery, or grandparents who can help
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 65,
       columnNumber: 65
     }
   }), `React`), ` is an impressive technology.
@@ -4690,7 +4764,7 @@ At the bootcamp we couldn't see `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 68,
       columnNumber: 35
     }
   }), `Next`), ` or `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4701,7 +4775,7 @@ At the bootcamp we couldn't see `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 70,
       columnNumber: 30
     }
   }), `Gatsby`), ` so I was reading
@@ -4709,28 +4783,28 @@ their documentation and I think it fits perfectly with what I need.`), Object(_m
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 74,
       columnNumber: 5
     }
   }, `I explain why.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 75,
       columnNumber: 5
     }
-  }, `What technologies were you looking for and why?`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+  }, `What technologies I was looking for and why?`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 76,
       columnNumber: 5
     }
   }, `I was looking for the speed and immediacy of static content.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 77,
       columnNumber: 5
     }
   }, `I'm a big fan of `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4741,7 +4815,7 @@ their documentation and I think it fits perfectly with what I need.`), Object(_m
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 77,
       columnNumber: 29
     }
   }), `Simplenote`), ` a very simple app for creating notes created in React
@@ -4749,14 +4823,14 @@ by Automattic.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 81,
       columnNumber: 5
     }
   }, `In it I have become used to creating notes using markdown. First, for its simplicity, and later, for the ease of use on any other platform.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 82,
       columnNumber: 5
     }
   }, `So I decided to look for examples that would serve as a basis and inspiration. Of all the content (the vast majority in English)
@@ -4764,7 +4838,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 84,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -4772,7 +4846,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 85,
       columnNumber: 7
     }
   }, `"Building a static blog site with Markdown and Next.js" by `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4783,7 +4857,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 85,
       columnNumber: 90
     }
   }), `Eduardo Pineda`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -4791,7 +4865,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 88,
       columnNumber: 7
     }
   }, `"Build a markdown blog with NextJS" from `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4802,7 +4876,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 88,
       columnNumber: 72
     }
   }), `Telmo Goncalves`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -4810,7 +4884,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 91,
       columnNumber: 7
     }
   }, `"How to create a static blog with Next.js and Markdown" (in spanish) by `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4821,14 +4895,14 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 91,
       columnNumber: 103
     }
   }), `Rafa Moral`))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 5
     }
   }, `I tried all these approaches, but after trying each one, I was left with the basis that `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -4836,7 +4910,7 @@ the most important approaches were:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 95,
       columnNumber: 100
     }
   }, `Loren Stewart`), ` proposes that you can detail the code
@@ -4848,7 +4922,7 @@ in their `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _exte
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 96,
       columnNumber: 12
     }
   }), `GitHub Next JS Blog kit`), ` and all the details of this "starter theme"
@@ -4860,40 +4934,24 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 99,
       columnNumber: 14
     }
   }), `React Template`), `.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 5
-    }
-  }, `It is ideal because os design to cloning the code, and it has a very clean base, with several features that I want:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("ul", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 5
-    }
-  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
-    parentName: "ul",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 102,
-      columnNumber: 7
+      columnNumber: 5
     }
-  }, `Reading progress bar`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
-    parentName: "ul",
+  }, `It is ideal because is design to cloning the code, and it has a very clean base, with several features that I want:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 103,
-      columnNumber: 7
+      columnNumber: 5
     }
-  }, `Simple and minimalist side menu`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
+  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -4901,7 +4959,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
       lineNumber: 104,
       columnNumber: 7
     }
-  }, `Be able to quickly create posts with the terminal`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
+  }, `Reading progress bar`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -4909,7 +4967,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
       lineNumber: 105,
       columnNumber: 7
     }
-  }, `Metadata and being able to implement SEO aspects as metadata in a simple way`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
+  }, `Simple and minimalist side menu`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
     parentName: "ul",
     __self: this,
     __source: {
@@ -4917,39 +4975,55 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
       lineNumber: 106,
       columnNumber: 7
     }
-  }, `I was looking to have the best scores in lighthouse, GT Metrix, and other performance measurement tools.`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+  }, `Be able to quickly create posts with the terminal`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
+    parentName: "ul",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107,
+      columnNumber: 7
+    }
+  }, `Metadata and being able to implement SEO aspects as metadata in a simple way`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
+    parentName: "ul",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 108,
-      columnNumber: 5
+      columnNumber: 7
     }
-  }, `So let's go through the installation step by step. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
-      columnNumber: 5
-    }
-  }, `Let's do it.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h2", {
+  }, `I was looking to have the best scores in lighthouse, GT Metrix, and other performance measurement tools.`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 110,
       columnNumber: 5
     }
-  }, `Creating my blog in Next JS, React and Markdown`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", {
+  }, `So let's go through the installation step by step. `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 111,
       columnNumber: 5
     }
-  }, `Prerequisites:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("ul", {
+  }, `Let's do it.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 112,
+      columnNumber: 5
+    }
+  }, `Creating my blog in Next JS, React and Markdown`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 5
+    }
+  }, `Prerequisites:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("ul", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -4957,7 +5031,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 115,
       columnNumber: 7
     }
   }, `You need to have install `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4968,7 +5042,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 115,
       columnNumber: 56
     }
   }), `Node`), ` `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -4976,7 +5050,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 7
     }
   }, `And of course `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -4987,21 +5061,21 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 118,
       columnNumber: 45
     }
   }), `NPM`))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 122,
       columnNumber: 5
     }
   }, `Clone the project:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 123,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5010,7 +5084,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 123,
       columnNumber: 10
     }
   }), `git clone https://github.com/lorenseanstewart/nextjs-mdx-blog-kit <Your project name>
@@ -5018,21 +5092,21 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 125,
       columnNumber: 5
     }
   }, `Initialize development environment`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 126,
       columnNumber: 5
     }
   }, `For this, the first thing, we make our:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5041,7 +5115,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 10
     }
   }), `npm install
@@ -5049,14 +5123,14 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 129,
       columnNumber: 5
     }
   }, `To install all dependencies in the project folder. Once finished we put in the terminal:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 130,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5065,7 +5139,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 130,
       columnNumber: 10
     }
   }), `npm run dev
@@ -5073,7 +5147,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 5
     }
   }, `With this command the development environment is initialized in: '`, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -5084,7 +5158,7 @@ on the web `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _ex
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 78
     }
   }), `http://localhost:3000/`), `' and we see the changes that we are implementing in our browser,
@@ -5092,7 +5166,7 @@ every time we save any of our files.`), Object(_mdx_js_react__WEBPACK_IMPORTED_M
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 136,
       columnNumber: 5
     }
   }, `Personalization begins`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
@@ -5102,14 +5176,14 @@ every time we save any of our files.`), Object(_mdx_js_react__WEBPACK_IMPORTED_M
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 137,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 138,
       columnNumber: 5
     }
   }, `You will see that the folder organization architecture is very intuitive.
@@ -5118,14 +5192,14 @@ The first step is to go to the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 139,
       columnNumber: 34
     }
   }, `config`), ` folder and edit the config.yml file with your project data.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 140,
       columnNumber: 5
     }
   }, `In it we define the author, the metadata, the menu, and the primary colors to use in the CSS. Many of the CSS variables are defined in this
@@ -5133,14 +5207,14 @@ archive. For further modifications, I explain later.`), Object(_mdx_js_react__WE
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 142,
       columnNumber: 5
     }
   }, `Install CLI (Command Line Interface)`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 143,
       columnNumber: 5
     }
   }, `The blog, as it points out in its documentation, processes pages based on the metadata found and publishes them, extracting the information
@@ -5148,21 +5222,21 @@ of the components.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 145,
       columnNumber: 5
     }
   }, `You should make sure to use CLI to create all pages and new posts.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 146,
       columnNumber: 5
     }
   }, `To install it, in the terminal, inside the project folder, we must do:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 147,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5171,7 +5245,7 @@ of the components.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 147,
       columnNumber: 10
     }
   }), `npm link
@@ -5179,7 +5253,7 @@ of the components.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 149,
       columnNumber: 5
     }
   }, `When installing CLI we can use the keyword: `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -5187,14 +5261,14 @@ of the components.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 149,
       columnNumber: 56
     }
   }, `blog`), ` to create our posts. Following the following format:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 150,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5203,7 +5277,7 @@ of the components.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])(
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 150,
       columnNumber: 10
     }
   }), `blog -t page -f miWeb // This command creates a new page titled: "miWeb.js"
@@ -5212,21 +5286,21 @@ blog -t post -f blog-react -m // With this command a new post is created called:
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 153,
       columnNumber: 5
     }
   }, `Why do I use a -m after the post title? Because if we do not identify the file type, by default it will be a JavaScript file.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 154,
       columnNumber: 5
     }
   }, `With the -m I am specifying that it is markdown and it already automatically incorporates the header with the following metadata:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 155,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5235,7 +5309,7 @@ blog -t post -f blog-react -m // With this command a new post is created called:
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 155,
       columnNumber: 10
     }
   }), `
@@ -5258,7 +5332,7 @@ export const meta = {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 172,
       columnNumber: 5
     }
   }, `And this is the only thing you need to have your post ready. He automatically creates the URL using the file name,
@@ -5266,22 +5340,22 @@ and as you can see, in the meta section we control whether we want to exclude it
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 174,
       columnNumber: 5
     }
-  }, `You control the date, the tags, the title, the meta description. This with a large asterisk since I have had certain
+  }, `You control the date, the tags, the title, the meta description. This with a large asterisk since I have certain
 complications with the SEO part (quite an irony). I'll tell you later.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 176,
       columnNumber: 5
     }
   }, `Below we simply write our post.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 177,
       columnNumber: 5
     }
   }, `In the official documentation you have more examples that we can use with the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -5289,7 +5363,7 @@ complications with the SEO part (quite an irony). I'll tell you later.`), Object
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 177,
       columnNumber: 90
     }
   }, `blog`), ` command, but I wanted to reflect what I think is more basic:
@@ -5297,30 +5371,30 @@ create a post, and create a page.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODU
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 179,
       columnNumber: 5
     }
-  }, `NOTE: Punctually I had failures and the test post I was doing did not appear. In the documentation they point to do: 'npm run clean'.
+  }, `NOTE: Punctually I had failures and the test post is not appear in the list. In the documentation they point to do: 'npm run clean'.
 Also, occasional failures, as in almost everything in life, with stopping the development environment (Ctrl +,) and starting again:
 'npm run dev' was enough.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 182,
       columnNumber: 5
     }
   }, `CSS`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 183,
       columnNumber: 5
     }
   }, `As we saw at the beginning in the file 'config.yml' we define general CSS variables as the theme colors.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 184,
       columnNumber: 5
     }
   }, `But if we want to modify the rest of the styles, we must go to the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
@@ -5328,21 +5402,21 @@ Also, occasional failures, as in almost everything in life, with stopping the de
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 184,
       columnNumber: 79
     }
   }, `styles`), ` folder and modify the file: 'index.js'.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 185,
       columnNumber: 5
     }
   }, `For example, I changed the font that came by default for headings and text.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 186,
       columnNumber: 5
     }
   }, `To do this, I downloaded the font from Google Fonts and converted it to the format: .woff2 to ensure the smallest possible font size: Vollkorn and Open Sans.
@@ -5350,14 +5424,14 @@ You save them in the folder: '/public/static/fonts/'.`), Object(_mdx_js_react__W
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 188,
       columnNumber: 5
     }
   }, `Then in the CSS you just have to call it regularly with: @font-face.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 189,
       columnNumber: 5
     }
   }, `Then in the style's index.js, we can modify the CSS. Remember this is a JavaScript file, that means all CSS
@@ -5365,21 +5439,21 @@ it is encapsulated within the constant: globalStyles = css.global.`), Object(_md
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 191,
       columnNumber: 5
     }
   }, `Do not forget that we can use variables from the config file to bring for example the colors: '$ {config.css.accentColor};'`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
+      lineNumber: 192,
       columnNumber: 5
     }
   }, `Pages and components`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 193,
       columnNumber: 5
     }
   }, `The difference between posts and pages is that the pages are stored in the 'pages/' folder.
@@ -5387,7 +5461,7 @@ The posts in the directory: 'pages/blog/'.`), Object(_mdx_js_react__WEBPACK_IMPO
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 195,
       columnNumber: 5
     }
   }, `We should also not put React components in the pages directory, since Next.JS creates a path for each of these components,
@@ -5395,7 +5469,7 @@ waiting for them to be a whole page. If we only have one component, we must save
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 197,
       columnNumber: 5
     }
   }, `Let's remember: The post files are markdown, and all thanks `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -5406,7 +5480,7 @@ waiting for them to be a whole page. If we only have one component, we must save
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 197,
       columnNumber: 72
     }
   }), `MDX`), `, like the home page that you can find at: 'index.mdx'
@@ -5415,21 +5489,21 @@ in the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 200,
       columnNumber: 10
     }
   }, `pages`), ` folder.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 201,
       columnNumber: 5
     }
   }, `Furthermore, the pages are (complete) components of React. The default template has a test one titled: 'About' that I removed from this blog.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 202,
       columnNumber: 5
     }
   }, `Let's use the code from this example template, but put it in image using the Visual Studio extension: `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -5440,7 +5514,7 @@ in the `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 202,
       columnNumber: 114
     }
   }), `Polacode`), `
@@ -5451,42 +5525,42 @@ I think it's cool ;-)`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204,
+      lineNumber: 206,
       columnNumber: 5
     }
   }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205,
+      lineNumber: 207,
       columnNumber: 5
     }
   }, `Like any React component we can "layout" our content using JSX.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 208,
       columnNumber: 5
     }
   }, `We update it with the 'arrow functions', and we can "layout" our component. We just have to add it to the config.yml where we define its path for the menu.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207,
+      lineNumber: 209,
       columnNumber: 5
     }
   }, `In my case, I wanted to leave it simple. Same for practice (later) I will create more sections.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 210,
       columnNumber: 5
     }
   }, `SEO`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 211,
       columnNumber: 5
     }
   }, `The part I thought would be easier on the blog became a headache. Everything seems easier in the documentation,
@@ -5495,7 +5569,7 @@ when 'export const meta' is automatically created with all the data.`), Object(_
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 214,
       columnNumber: 5
     }
   }, `SEO in this starter template is managed with an NPM package: `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("a", _extends({
@@ -5506,7 +5580,7 @@ when 'export const meta' is automatically created with all the data.`), Object(_
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 214,
       columnNumber: 73
     }
   }), `Next SEO`), `. Which is wonderful.
@@ -5514,14 +5588,14 @@ Greatly simplifies SEO management in projects with Next.js`), Object(_mdx_js_rea
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 218,
       columnNumber: 5
     }
   }, `It already comes in the template dependencies, or you can install it:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 219,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5530,7 +5604,7 @@ Greatly simplifies SEO management in projects with Next.js`), Object(_mdx_js_rea
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 219,
       columnNumber: 10
     }
   }), `npm i next-seo
@@ -5538,14 +5612,14 @@ Greatly simplifies SEO management in projects with Next.js`), Object(_mdx_js_rea
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 221,
       columnNumber: 5
     }
   }, `As you can see in its documentation, it is very simple, we only have to do the import in the post or page that we want to use:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("pre", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 222,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("code", _extends({
@@ -5554,7 +5628,7 @@ Greatly simplifies SEO management in projects with Next.js`), Object(_mdx_js_rea
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 222,
       columnNumber: 10
     }
   }), `import React from 'react';
@@ -5574,15 +5648,15 @@ export default () => (
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234,
+      lineNumber: 236,
       columnNumber: 5
     }
   }, `And within the NextSEO component we define the metadata and we can add Open Graph data, we can define that a page is not indexed,
-we can add structured data etc.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+we can add structured data, etc.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236,
+      lineNumber: 238,
       columnNumber: 5
     }
   }, `It's great. According to the template documentation, the metadata is passed just by modifying the data when creating the posts,
@@ -5590,21 +5664,21 @@ but I was not able to send it correctly. So I had to use the direct method of th
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238,
+      lineNumber: 240,
       columnNumber: 5
     }
-  }, `If later I manage to resolve this point, I will do the update in the post.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+  }, `If in the future, I manage to resolve this point, I will do the update in the post.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
+      lineNumber: 241,
       columnNumber: 5
     }
   }, `There are more aspects that I want to develop in this regard, for example:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("ul", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240,
+      lineNumber: 242,
       columnNumber: 5
     }
   }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -5612,7 +5686,7 @@ but I was not able to send it correctly. So I had to use the direct method of th
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241,
+      lineNumber: 243,
       columnNumber: 7
     }
   }, `The robots.txt file`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("li", {
@@ -5620,14 +5694,14 @@ but I was not able to send it correctly. So I had to use the direct method of th
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
+      lineNumber: 244,
       columnNumber: 7
     }
   }, `The sitemap.xml`)), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 246,
       columnNumber: 5
     }
   }, `But they are aspects that with practice I will be implementing, first in this blog, and later in the other parallel projects that I want to develop in these
@@ -5635,28 +5709,84 @@ technologies.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 248,
+      columnNumber: 5
+    }
+  }, `Website optimization`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 249,
+      columnNumber: 5
+    }
+  }, `The theme does what it promises. It’s just amazing. Check out the valuation at lighthouse:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _public_static_images_lighthouse_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    className: "img-centered",
+    alt: "lighthouse evaluation from this blog",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250,
+      columnNumber: 5
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 251,
+      columnNumber: 5
+    }
+  }, `And the evaluation in GTMetrix:`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("img", {
+    src: _public_static_images_gtmetrix_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    className: "img-centered",
+    alt: "GtMetrix evaluation from this blog",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 252,
+      columnNumber: 5
+    }
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 253,
+      columnNumber: 5
+    }
+  }, `I have never had such positive evaluations. It is the most positive aspect of this technology. However, this is only the beginning.
+I want to use this blog as "testing" (since I don't mind breaking it too much).`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 255,
+      columnNumber: 5
+    }
+  }, `Implement and be able to experience everything I'm learning both in React, like this fantastic Next.Js framework.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("h2", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 256,
       columnNumber: 5
     }
   }, `Final thoughts`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247,
+      lineNumber: 257,
       columnNumber: 5
     }
   }, `Well this is how we started. Creating and breaking to learn in this fantastic world of JavaScript programming.`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 248,
+      lineNumber: 258,
       columnNumber: 5
     }
   }, `Long life and prosperity! `), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__["mdx"])("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 249,
+      lineNumber: 259,
       columnNumber: 5
     }
   }, `See you in future reactive posts.`));
@@ -6571,6 +6701,28 @@ module.exports = "/_next/static/images/estructura-proyecto-95872897e03b9eeb2fa41
 
 /***/ }),
 
+/***/ "./public/static/images/gtmetrix.png":
+/*!*******************************************!*\
+  !*** ./public/static/images/gtmetrix.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/gtmetrix-ac69e4301bb46bad83bf0d10cff07a2e.png";
+
+/***/ }),
+
+/***/ "./public/static/images/lighthouse.png":
+/*!*********************************************!*\
+  !*** ./public/static/images/lighthouse.png ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/lighthouse-a3cb11ab00d0198934040ae4b5cbc81e.png";
+
+/***/ }),
+
 /***/ "./public/static/images/mountains.jpg":
 /*!********************************************!*\
   !*** ./public/static/images/mountains.jpg ***!
@@ -6633,13 +6785,13 @@ __webpack_require__.r(__webpack_exports__);
 // variables file in this style/ directory if that is your preference.
  // used in pages/about.js, pages/index.js
 
-const centeredPageStyles = new String(".centered-container.jsx-3052985414{height:80vh;width:98vw;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3dhamFyaS9kZXYvYmxvZy1uZXh0L3N0eWxlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRcUMsQUFHaUIsWUFDRCxXQUNDLFlBQ0MsMEVBQ00sNkZBQ0ksbUdBQ0QsOEVBQ3hCIiwiZmlsZSI6Ii9ob21lL3dhamFyaS9kZXYvYmxvZy1uZXh0L3N0eWxlcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBjc3MgZnJvbSBcInN0eWxlZC1qc3gvY3NzXCI7XG5cbi8vIEluIGFuIGF0dGVtcHQgdG8ga2VlcCBhbGwgY29uZmlndXJhdGlvbiBpbiBvbmUgcGxhY2UsIGNzcyB2YXJpYWJsZXNcbi8vIGFyZSBjdXJyZW50bHkgc3RvcmVkIGluIGNvbmZpZy55bWwuIE1vdmUgdGhlc2UgdmFyaWFibGVzIGludG8gYVxuLy8gdmFyaWFibGVzIGZpbGUgaW4gdGhpcyBzdHlsZS8gZGlyZWN0b3J5IGlmIHRoYXQgaXMgeW91ciBwcmVmZXJlbmNlLlxuaW1wb3J0IHsgY29uZmlnIH0gZnJvbSBcIi4uL2NvbmZpZy9jb25maWcueW1sXCI7XG5cbi8vIHVzZWQgaW4gcGFnZXMvYWJvdXQuanMsIHBhZ2VzL2luZGV4LmpzXG5leHBvcnQgY29uc3QgY2VudGVyZWRQYWdlU3R5bGVzID0gY3NzYFxuICAuY2VudGVyZWQtY29udGFpbmVyIHtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDk4dnc7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICB9XG5gO1xuXG4vLyB1c2VkIGluIF9hcHAuanNcbmV4cG9ydCBjb25zdCBnbG9iYWxTdHlsZXMgPSBjc3MuZ2xvYmFsYFxuICBAZm9udC1mYWNlIHtcbiAgICBmb250LWZhbWlseTogXCJWb2xsa29yblwiLCBzZXJpZjtcbiAgICBmb250LWRpc3BsYXk6IGF1dG87IC8qIEltcG9ydGFudCBmb3IgcGVyZm9ybWFuY2UgKi9cbiAgICBzcmM6IHVybChcIi9zdGF0aWMvZm9udHMvdm9sbGtvcm4ud29mZjJcIikgZm9ybWF0KFwid29mZjJcIik7XG4gICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICB9XG4gIGh0bWwge1xuICAgIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xuICB9XG4gIGJvZHkge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB0b3A6IDA7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgY29sb3I6ICR7Y29uZmlnLmNzcy5ibGFja307XG4gIH1cbiAgI19fbmV4dCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGZsZXg6IDE7XG4gICAgbWluLWhlaWdodDogMTAwdmg7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA5OHZ3O1xuICB9XG4gIC5mb290ZXIge1xuICAgIGZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiLCBzYW5zLXNlcmlmO1xuICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgaGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJvcmRlci10b3A6IDJweCBzb2xpZCAke2NvbmZpZy5jc3MubGlnaHRHcmF5fTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAxNnB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICBib3R0b206IDA7XG4gIH1cbiAgc3Ryb25nLFxuICBoMSxcbiAgaDEgPiAqLFxuICBoMixcbiAgaDIgPiAqLFxuICBoMyxcbiAgaDMgPiAqLFxuICBoNCxcbiAgaDQgPiAqLFxuICBoNSxcbiAgaDUgPiAqLFxuICBoNixcbiAgaDYgPiAqIHtcbiAgICBmb250LWZhbWlseTogXCJWb2xsa29yblwiLCBzZXJpZjtcbiAgICBsZXR0ZXItc3BhY2luZzogMnB4O1xuICAgIGZvbnQtc2l6ZTogMjJweDsgXG4gIH1cbiAgc3Ryb25nIHtcbiAgICBjb2xvcjogJHtjb25maWcuY3NzLmFjY2VudENvbG9yfTtcbiAgfVxuICAuc2VhcmNoLWxheW91dCxcbiAgLmJsb2ctbGF5b3V0LFxuICAuYmxvZy1wb3N0LWxpc3Qge1xuICAgIG1heC13aWR0aDogNzQwcHg7XG4gICAgcGFkZGluZzogNDBweCAyMHB4IDEwMHB4IDIwcHg7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB9XG4gIC5ibG9nLWxheW91dCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB3aWR0aDogOTh2dztcbiAgfVxuICBpbWcge1xuICAgIG1heC13aWR0aDogMTAwJTtcbiAgfVxuICBpbWcuaW1nLWNlbnRlcmVkIHtcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XG4gICAgbWFyZ2luOiAxMHB4IDBweDtcbiAgfVxuICAuaWNvbi1idXR0b24ge1xuICAgIG91dGxpbmU6IG5vbmU7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGJhY2tncm91bmQ6ICR7Y29uZmlnLmNzcy5iYWNrZ3JvdW5kQ29sb3J9O1xuICB9XG4gIC5pY29uLWJ1dHRvbi5oYW1idXJnZXIge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICBsZWZ0OiAwcHg7XG4gICAgdG9wOiAwcHg7XG4gICAgei1pbmRleDogMzsgLyogdGhlIG5hdmlnYXRpb24gbWVudSBpcyB6LWluZGV4OiA0ICovXG4gICAgYm9yZGVyOiAxcHggc29saWQgJHtjb25maWcuY3NzLmxpZ2h0R3JheX07XG4gICAgcGFkZGluZy10b3A6IDRweDtcbiAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gIH1cbiAgYSB7XG4gICAgY29sb3I6ICR7Y29uZmlnLmNzcy5hY2NlbnRDb2xvcn07XG4gIH1cbiAgbGFiZWwge1xuICAgIGNvbG9yOiAke2NvbmZpZy5jc3MuYmxhY2t9O1xuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICB9XG4gIC5wb3N0LWRhdGUge1xuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgfVxuICBwLFxuICBwIGEsXG4gIGIsXG4gIGVtLFxuICBzcGFuLFxuICBsaSxcbiAgdWwsXG4gIG9sIHtcbiAgICBmb250LWZhbWlseTogXCJPcGVuIFNhbnNcIiwgc2Fucy1zZXJpZjtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgbGluZS1oZWlnaHQ6IDE2MCU7XG4gICAgd29yZC1icmVhazogYnJlYWstd29yZDsgLyogVGhpcyBwcmV2ZW50cyBhIGJ1ZyB3aXRoIHRoZSByZWFkaW5nIHByb2dyZXNzIGJhci4gTGVhdmUgdGhpcyBzdHlsZSBoZXJlIHVubGVzcyB5b3UgYXJlIHJlbW92aW5nIHRoZSByZWFkaW5nIHByb2dyZXNzIGJhci4gKi9cbiAgfVxuICBjb2RlIHtcbiAgICBmb250LXNpemU6IDE0cHg7IFxuICAgIGJhY2tncm91bmQ6IHJnYmEoMCwwLDAsLjA1KTsgXG4gICAgbWFyZ2luLWJvdHRvbTogMS41ZW07XG4gICAgb3ZlcmZsb3c6IGF1dG87XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrOyBcbiAgfVxuXG4gIGNvZGUgPiBzcGFuIHtcbiAgICBmb250LXNpemU6IGluaGVyaXQ7IC8qIG1ha2Ugc3VyZSBjb2RlIGZvbnQgc2l6ZSBpcyBzZXQgaW4gPENvZGVCbG9jayAvPiAqL1xuICAgIGJhY2tncm91bmQ6IGluaGVyaXQgIWltcG9ydGFudDsgLyogRml4ZXMgY29kZSBibG9jayBzdHlsZSBidWcqL1xuICB9XG5gO1xuIl19 */\n/*@ sourceURL=/home/wajari/dev/blog-next/styles/index.js */"); // used in _app.js
+const centeredPageStyles = new String(".centered-container.jsx-3052985414{height:80vh;width:98vw;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3dhamFyaS9kZXYvYmxvZy1uZXh0L3N0eWxlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRcUMsQUFHaUIsWUFDRCxXQUNDLFlBQ0MsMEVBQ00sNkZBQ0ksbUdBQ0QsOEVBQ3hCIiwiZmlsZSI6Ii9ob21lL3dhamFyaS9kZXYvYmxvZy1uZXh0L3N0eWxlcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBjc3MgZnJvbSBcInN0eWxlZC1qc3gvY3NzXCI7XG5cbi8vIEluIGFuIGF0dGVtcHQgdG8ga2VlcCBhbGwgY29uZmlndXJhdGlvbiBpbiBvbmUgcGxhY2UsIGNzcyB2YXJpYWJsZXNcbi8vIGFyZSBjdXJyZW50bHkgc3RvcmVkIGluIGNvbmZpZy55bWwuIE1vdmUgdGhlc2UgdmFyaWFibGVzIGludG8gYVxuLy8gdmFyaWFibGVzIGZpbGUgaW4gdGhpcyBzdHlsZS8gZGlyZWN0b3J5IGlmIHRoYXQgaXMgeW91ciBwcmVmZXJlbmNlLlxuaW1wb3J0IHsgY29uZmlnIH0gZnJvbSBcIi4uL2NvbmZpZy9jb25maWcueW1sXCI7XG5cbi8vIHVzZWQgaW4gcGFnZXMvYWJvdXQuanMsIHBhZ2VzL2luZGV4LmpzXG5leHBvcnQgY29uc3QgY2VudGVyZWRQYWdlU3R5bGVzID0gY3NzYFxuICAuY2VudGVyZWQtY29udGFpbmVyIHtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDk4dnc7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICB9XG5gO1xuXG4vLyB1c2VkIGluIF9hcHAuanNcbmV4cG9ydCBjb25zdCBnbG9iYWxTdHlsZXMgPSBjc3MuZ2xvYmFsYFxuICBAZm9udC1mYWNlIHtcbiAgICBmb250LWZhbWlseTogXCJWb2xsa29yblwiLCBzZXJpZjtcbiAgICBmb250LWRpc3BsYXk6IGF1dG87IC8qIEltcG9ydGFudCBmb3IgcGVyZm9ybWFuY2UgKi9cbiAgICBzcmM6IHVybChcIi9zdGF0aWMvZm9udHMvdm9sbGtvcm4ud29mZjJcIikgZm9ybWF0KFwid29mZjJcIik7XG4gICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICB9XG4gIGh0bWwge1xuICAgIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xuICB9XG4gIGJvZHkge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB0b3A6IDA7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gICAgY29sb3I6ICR7Y29uZmlnLmNzcy5ibGFja307XG4gIH1cbiAgI19fbmV4dCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGZsZXg6IDE7XG4gICAgbWluLWhlaWdodDogMTAwdmg7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA5OHZ3O1xuICB9XG4gIC5mb290ZXIge1xuICAgIGZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiLCBzYW5zLXNlcmlmO1xuICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgaGVpZ2h0OiA4MHB4O1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJvcmRlci10b3A6IDJweCBzb2xpZCAke2NvbmZpZy5jc3MubGlnaHRHcmF5fTtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBwYWRkaW5nOiAyJTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgXG4gICAgZm9udC1zaXplOiAxNnB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICBib3R0b206IDA7XG4gIH1cbiAgc3Ryb25nLFxuICBoMSxcbiAgaDEgPiAqLFxuICBoMixcbiAgaDIgPiAqLFxuICBoMyxcbiAgaDMgPiAqLFxuICBoNCxcbiAgaDQgPiAqLFxuICBoNSxcbiAgaDUgPiAqLFxuICBoNixcbiAgaDYgPiAqIHtcbiAgICBmb250LWZhbWlseTogXCJWb2xsa29yblwiLCBzZXJpZjtcbiAgICBsZXR0ZXItc3BhY2luZzogMnB4O1xuICAgIGZvbnQtc2l6ZTogMjJweDsgXG4gIH1cbiAgc3Ryb25nIHtcbiAgICBjb2xvcjogJHtjb25maWcuY3NzLmFjY2VudENvbG9yfTtcbiAgfVxuICAuc2VhcmNoLWxheW91dCxcbiAgLmJsb2ctbGF5b3V0LFxuICAuYmxvZy1wb3N0LWxpc3Qge1xuICAgIG1heC13aWR0aDogNzQwcHg7XG4gICAgcGFkZGluZzogNDBweCAyMHB4IDEwMHB4IDIwcHg7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB9XG4gIC5ibG9nLWxheW91dCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIG1hcmdpbjogYXV0bztcbiAgICB3aWR0aDogOTh2dztcbiAgfVxuICBpbWcge1xuICAgIG1heC13aWR0aDogMTAwJTtcbiAgfVxuICBpbWcuaW1nLWNlbnRlcmVkIHtcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XG4gICAgbWFyZ2luOiAxMHB4IDBweDtcbiAgfVxuICAuaWNvbi1idXR0b24ge1xuICAgIG91dGxpbmU6IG5vbmU7XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGJhY2tncm91bmQ6ICR7Y29uZmlnLmNzcy5iYWNrZ3JvdW5kQ29sb3J9O1xuICB9XG4gIC5pY29uLWJ1dHRvbi5oYW1idXJnZXIge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICBsZWZ0OiAwcHg7XG4gICAgdG9wOiAwcHg7XG4gICAgei1pbmRleDogMzsgLyogdGhlIG5hdmlnYXRpb24gbWVudSBpcyB6LWluZGV4OiA0ICovXG4gICAgYm9yZGVyOiAxcHggc29saWQgJHtjb25maWcuY3NzLmxpZ2h0R3JheX07XG4gICAgcGFkZGluZy10b3A6IDRweDtcbiAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gIH1cbiAgYSB7XG4gICAgY29sb3I6ICR7Y29uZmlnLmNzcy5hY2NlbnRDb2xvcn07XG4gIH1cbiAgbGFiZWwge1xuICAgIGNvbG9yOiAke2NvbmZpZy5jc3MuYmxhY2t9O1xuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICB9XG4gIC5wb3N0LWRhdGUge1xuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgfVxuICBwLFxuICBwIGEsXG4gIGIsXG4gIGVtLFxuICBzcGFuLFxuICBsaSxcbiAgdWwsXG4gIG9sIHtcbiAgICBmb250LWZhbWlseTogXCJPcGVuIFNhbnNcIiwgc2Fucy1zZXJpZjtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgbGluZS1oZWlnaHQ6IDE2MCU7XG4gICAgd29yZC1icmVhazogYnJlYWstd29yZDsgLyogVGhpcyBwcmV2ZW50cyBhIGJ1ZyB3aXRoIHRoZSByZWFkaW5nIHByb2dyZXNzIGJhci4gTGVhdmUgdGhpcyBzdHlsZSBoZXJlIHVubGVzcyB5b3UgYXJlIHJlbW92aW5nIHRoZSByZWFkaW5nIHByb2dyZXNzIGJhci4gKi9cbiAgfVxuICBjb2RlIHtcbiAgICBmb250LXNpemU6IDE0cHg7IFxuICAgIGJhY2tncm91bmQ6IHJnYmEoMCwwLDAsLjA1KTsgXG4gICAgbWFyZ2luLWJvdHRvbTogMS41ZW07XG4gICAgb3ZlcmZsb3c6IGF1dG87XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrOyBcbiAgfVxuXG4gIGNvZGUgPiBzcGFuIHtcbiAgICBmb250LXNpemU6IGluaGVyaXQ7IC8qIG1ha2Ugc3VyZSBjb2RlIGZvbnQgc2l6ZSBpcyBzZXQgaW4gPENvZGVCbG9jayAvPiAqL1xuICAgIGJhY2tncm91bmQ6IGluaGVyaXQgIWltcG9ydGFudDsgLyogRml4ZXMgY29kZSBibG9jayBzdHlsZSBidWcqL1xuICB9XG5gO1xuIl19 */\n/*@ sourceURL=/home/wajari/dev/blog-next/styles/index.js */"); // used in _app.js
 
 centeredPageStyles.__hash = "3052985414";
-const globalStyles = new String(`@font-face{font-family:"Vollkorn",serif;font-display:auto;src:url("/static/fonts/vollkorn.woff2") format("woff2");font-style:normal;}html{-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;}body{position:relative;top:0;margin:0;padding:0;color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.black};}#__next{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;min-height:100vh;height:80vh;width:98vw;}.footer{font-family:"Open Sans",sans-serif;background:#fff;height:80px;width:100%;border-top:2px solid ${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.lightGray};display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:16px;position:fixed;bottom:0;}strong,h1,h1>*,h2,h2>*,h3,h3>*,h4,h4>*,h5,h5>*,h6,h6>*{font-family:"Vollkorn",serif;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;font-size:22px;}strong{color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.accentColor};}.search-layout,.blog-layout,.blog-post-list{max-width:740px;padding:40px 20px 100px 20px;position:relative;}.blog-layout{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:auto;width:98vw;}img{max-width:100%;}img.img-centered{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;margin:10px 0px;}.icon-button{outline:none;border:none;background:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.backgroundColor};}.icon-button.hamburger{position:fixed;left:0px;top:0px;z-index:3;border:1px solid ${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.lightGray};padding-top:4px;border-radius:3px;}a{color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.accentColor};}label{color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.black};font-weight:600;font-family:sans-serif;font-size:18px;}.post-date{font-family:sans-serif;font-size:16px;}p,p a,b,em,span,li,ul,ol{font-family:"Open Sans",sans-serif;font-size:18px;line-height:160%;word-break:break-word;}code{font-size:14px;background:rgba(0,0,0,.05);margin-bottom:1.5em;overflow:auto;max-width:100%;padding:20px;display:inline-block;}code>span{font-size:inherit;background:inherit !important;}
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3dhamFyaS9kZXYvYmxvZy1uZXh0L3N0eWxlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQnNDLEFBR21DLEFBTVAsQUFHTCxBQU9MLEFBUXVCLEFBeUJOLEFBS0ssQUFLbkIsQUFLSCxBQU1FLEFBR0csQUFJTCxBQUtFLEFBU29CLEFBR0EsQUFNWixBQVdhLEFBTXJCLEFBVUcsYUFqRE4sRUFQZCxBQVlXLEFBbUNrQixDQTFERSxFQWxEdkIsQUFzSHdCLEtBM0JmLENBMUZOLEFBeUVELENBTGdDLElBOUV0QixBQWlEQyxHQW1DVCxDQXpFQSxFQWFNLEFBOEJsQixBQXFDQSxBQUdrQixBQWlCRCxHQVZqQixJQWhCZ0QsQUFpQzFCLENBMUdlLEVBZ0RqQixFQTNEc0MsQ0ErSDFELEVBaEJtQixDQXZGTCxBQXNFVyxXQXdCVCxDQTdGSCxBQW1DYixFQWtCQSxFQWtDd0IsSUF4Q04sR0F6RE0sQUFXNEIsQUFxQzVCLEFBZ0NQLEVBd0JBLEVBM0dqQixTQTZEQSxDQVlrQixDQVdsQixBQWlCQSxFQU9lLFlBdkhLLENBcUZBLEFBbUNHLEtBcEh2QixZQUhBLENBK0NpQixBQXNDakIsRUE1RGUsQ0ErRmYsWUF4RUEsZUFsQ1MsQUFnREssWUFDRCxXQUNiLFVBakRtQixhQVdNLElBVlgsWUFDRCxXQUNiLHdFQVNxQiw2RkFDSixlQUNBLGVBQ04sU0FDWCIsImZpbGUiOiIvaG9tZS93YWphcmkvZGV2L2Jsb2ctbmV4dC9zdHlsZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY3NzIGZyb20gXCJzdHlsZWQtanN4L2Nzc1wiO1xuXG4vLyBJbiBhbiBhdHRlbXB0IHRvIGtlZXAgYWxsIGNvbmZpZ3VyYXRpb24gaW4gb25lIHBsYWNlLCBjc3MgdmFyaWFibGVzXG4vLyBhcmUgY3VycmVudGx5IHN0b3JlZCBpbiBjb25maWcueW1sLiBNb3ZlIHRoZXNlIHZhcmlhYmxlcyBpbnRvIGFcbi8vIHZhcmlhYmxlcyBmaWxlIGluIHRoaXMgc3R5bGUvIGRpcmVjdG9yeSBpZiB0aGF0IGlzIHlvdXIgcHJlZmVyZW5jZS5cbmltcG9ydCB7IGNvbmZpZyB9IGZyb20gXCIuLi9jb25maWcvY29uZmlnLnltbFwiO1xuXG4vLyB1c2VkIGluIHBhZ2VzL2Fib3V0LmpzLCBwYWdlcy9pbmRleC5qc1xuZXhwb3J0IGNvbnN0IGNlbnRlcmVkUGFnZVN0eWxlcyA9IGNzc2BcbiAgLmNlbnRlcmVkLWNvbnRhaW5lciB7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA5OHZ3O1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgfVxuYDtcblxuLy8gdXNlZCBpbiBfYXBwLmpzXG5leHBvcnQgY29uc3QgZ2xvYmFsU3R5bGVzID0gY3NzLmdsb2JhbGBcbiAgQGZvbnQtZmFjZSB7XG4gICAgZm9udC1mYW1pbHk6IFwiVm9sbGtvcm5cIiwgc2VyaWY7XG4gICAgZm9udC1kaXNwbGF5OiBhdXRvOyAvKiBJbXBvcnRhbnQgZm9yIHBlcmZvcm1hbmNlICovXG4gICAgc3JjOiB1cmwoXCIvc3RhdGljL2ZvbnRzL3ZvbGxrb3JuLndvZmYyXCIpIGZvcm1hdChcIndvZmYyXCIpO1xuICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgfVxuICBodG1sIHtcbiAgICBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDtcbiAgfVxuICBib2R5IHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgdG9wOiAwO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGNvbG9yOiAke2NvbmZpZy5jc3MuYmxhY2t9O1xuICB9XG4gICNfX25leHQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBmbGV4OiAxO1xuICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogOTh2dztcbiAgfVxuICAuZm9vdGVyIHtcbiAgICBmb250LWZhbWlseTogXCJPcGVuIFNhbnNcIiwgc2Fucy1zZXJpZjtcbiAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgIGhlaWdodDogODBweDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBib3JkZXItdG9wOiAycHggc29saWQgJHtjb25maWcuY3NzLmxpZ2h0R3JheX07XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgYm90dG9tOiAwO1xuICB9XG4gIHN0cm9uZyxcbiAgaDEsXG4gIGgxID4gKixcbiAgaDIsXG4gIGgyID4gKixcbiAgaDMsXG4gIGgzID4gKixcbiAgaDQsXG4gIGg0ID4gKixcbiAgaDUsXG4gIGg1ID4gKixcbiAgaDYsXG4gIGg2ID4gKiB7XG4gICAgZm9udC1mYW1pbHk6IFwiVm9sbGtvcm5cIiwgc2VyaWY7XG4gICAgbGV0dGVyLXNwYWNpbmc6IDJweDtcbiAgICBmb250LXNpemU6IDIycHg7IFxuICB9XG4gIHN0cm9uZyB7XG4gICAgY29sb3I6ICR7Y29uZmlnLmNzcy5hY2NlbnRDb2xvcn07XG4gIH1cbiAgLnNlYXJjaC1sYXlvdXQsXG4gIC5ibG9nLWxheW91dCxcbiAgLmJsb2ctcG9zdC1saXN0IHtcbiAgICBtYXgtd2lkdGg6IDc0MHB4O1xuICAgIHBhZGRpbmc6IDQwcHggMjBweCAxMDBweCAyMHB4O1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgfVxuICAuYmxvZy1sYXlvdXQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBtYXJnaW46IGF1dG87XG4gICAgd2lkdGg6IDk4dnc7XG4gIH1cbiAgaW1nIHtcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG4gIH1cbiAgaW1nLmltZy1jZW50ZXJlZCB7XG4gICAgYWxpZ24tc2VsZjogY2VudGVyO1xuICAgIG1hcmdpbjogMTBweCAwcHg7XG4gIH1cbiAgLmljb24tYnV0dG9uIHtcbiAgICBvdXRsaW5lOiBub25lO1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBiYWNrZ3JvdW5kOiAke2NvbmZpZy5jc3MuYmFja2dyb3VuZENvbG9yfTtcbiAgfVxuICAuaWNvbi1idXR0b24uaGFtYnVyZ2VyIHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgbGVmdDogMHB4O1xuICAgIHRvcDogMHB4O1xuICAgIHotaW5kZXg6IDM7IC8qIHRoZSBuYXZpZ2F0aW9uIG1lbnUgaXMgei1pbmRleDogNCAqL1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICR7Y29uZmlnLmNzcy5saWdodEdyYXl9O1xuICAgIHBhZGRpbmctdG9wOiA0cHg7XG4gICAgYm9yZGVyLXJhZGl1czogM3B4O1xuICB9XG4gIGEge1xuICAgIGNvbG9yOiAke2NvbmZpZy5jc3MuYWNjZW50Q29sb3J9O1xuICB9XG4gIGxhYmVsIHtcbiAgICBjb2xvcjogJHtjb25maWcuY3NzLmJsYWNrfTtcbiAgICBmb250LXdlaWdodDogNjAwO1xuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICAucG9zdC1kYXRlIHtcbiAgICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gIH1cbiAgcCxcbiAgcCBhLFxuICBiLFxuICBlbSxcbiAgc3BhbixcbiAgbGksXG4gIHVsLFxuICBvbCB7XG4gICAgZm9udC1mYW1pbHk6IFwiT3BlbiBTYW5zXCIsIHNhbnMtc2VyaWY7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAxNjAlO1xuICAgIHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7IC8qIFRoaXMgcHJldmVudHMgYSBidWcgd2l0aCB0aGUgcmVhZGluZyBwcm9ncmVzcyBiYXIuIExlYXZlIHRoaXMgc3R5bGUgaGVyZSB1bmxlc3MgeW91IGFyZSByZW1vdmluZyB0aGUgcmVhZGluZyBwcm9ncmVzcyBiYXIuICovXG4gIH1cbiAgY29kZSB7XG4gICAgZm9udC1zaXplOiAxNHB4OyBcbiAgICBiYWNrZ3JvdW5kOiByZ2JhKDAsMCwwLC4wNSk7IFxuICAgIG1hcmdpbi1ib3R0b206IDEuNWVtO1xuICAgIG92ZXJmbG93OiBhdXRvO1xuICAgIG1heC13aWR0aDogMTAwJTtcbiAgICBwYWRkaW5nOiAyMHB4O1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsgXG4gIH1cblxuICBjb2RlID4gc3BhbiB7XG4gICAgZm9udC1zaXplOiBpbmhlcml0OyAvKiBtYWtlIHN1cmUgY29kZSBmb250IHNpemUgaXMgc2V0IGluIDxDb2RlQmxvY2sgLz4gKi9cbiAgICBiYWNrZ3JvdW5kOiBpbmhlcml0ICFpbXBvcnRhbnQ7IC8qIEZpeGVzIGNvZGUgYmxvY2sgc3R5bGUgYnVnKi9cbiAgfVxuYDtcbiJdfQ== */
+const globalStyles = new String(`@font-face{font-family:"Vollkorn",serif;font-display:auto;src:url("/static/fonts/vollkorn.woff2") format("woff2");font-style:normal;}html{-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;}body{position:relative;top:0;margin:0;padding:0;color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.black};}#__next{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;min-height:100vh;height:80vh;width:98vw;}.footer{font-family:"Open Sans",sans-serif;background:#fff;height:80px;width:100%;border-top:2px solid ${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.lightGray};display:block;padding:2%;text-align:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;font-size:16px;position:fixed;bottom:0;}strong,h1,h1>*,h2,h2>*,h3,h3>*,h4,h4>*,h5,h5>*,h6,h6>*{font-family:"Vollkorn",serif;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;font-size:22px;}strong{color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.accentColor};}.search-layout,.blog-layout,.blog-post-list{max-width:740px;padding:40px 20px 100px 20px;position:relative;}.blog-layout{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:auto;width:98vw;}img{max-width:100%;}img.img-centered{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;margin:10px 0px;}.icon-button{outline:none;border:none;background:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.backgroundColor};}.icon-button.hamburger{position:fixed;left:0px;top:0px;z-index:3;border:1px solid ${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.lightGray};padding-top:4px;border-radius:3px;}a{color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.accentColor};}label{color:${_config_config_yml__WEBPACK_IMPORTED_MODULE_0__["config"].css.black};font-weight:600;font-family:sans-serif;font-size:18px;}.post-date{font-family:sans-serif;font-size:16px;}p,p a,b,em,span,li,ul,ol{font-family:"Open Sans",sans-serif;font-size:18px;line-height:160%;word-break:break-word;}code{font-size:14px;background:rgba(0,0,0,.05);margin-bottom:1.5em;overflow:auto;max-width:100%;padding:20px;display:inline-block;}code>span{font-size:inherit;background:inherit !important;}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3dhamFyaS9kZXYvYmxvZy1uZXh0L3N0eWxlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQnNDLEFBR21DLEFBTVAsQUFHTCxBQU9MLEFBUXVCLEFBMkJOLEFBS0ssQUFLbkIsQUFLSCxBQU1FLEFBR0csQUFJTCxBQUtFLEFBU29CLEFBR0EsQUFNWixBQVdhLEFBTXJCLEFBVUcsYUFqRE4sRUFQZCxBQVlXLEFBbUNrQixDQTFERSxFQXBEdkIsQUF3SHdCLEtBM0JmLENBNUZOLEFBMkVELENBTGdDLElBaEZ0QixBQW1EQyxHQW1DVCxDQTNFQSxFQWFNLEFBZ0NsQixBQXFDQSxBQUdrQixBQWlCRCxHQVZqQixJQWhCZ0QsQUFpQzFCLENBNUdlLEVBa0RqQixFQTdEc0MsQ0FpSTFELEVBaEJtQixDQXpGTCxBQXdFVyxXQXdCVCxDQS9GSCxBQXFDYixFQWtCQSxFQWtDd0IsSUF4Q04sR0EzRE0sQUFXNEIsQUF1QzVCLEFBZ0NQLEVBd0JBLEVBN0dqQixTQStEQSxDQVlrQixDQVdsQixBQWlCQSxFQU9lLFlBekhLLENBdUZBLEFBbUNHLEtBdEh2QixZQUhBLENBaURpQixBQXNDakIsRUE5RGdCLENBaUdoQixZQXhFQSxDQXhCYSxXQUNPLEdBYlgsQUFrREssWUFDRCxHQXJDWSxRQXNDekIsVUFuRG1CLGlCQUNMLFlBQ0QsV0FDYix5Q0FZaUIsZUFDQSxlQUNOLFNBQ1giLCJmaWxlIjoiL2hvbWUvd2FqYXJpL2Rldi9ibG9nLW5leHQvc3R5bGVzL2luZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNzcyBmcm9tIFwic3R5bGVkLWpzeC9jc3NcIjtcblxuLy8gSW4gYW4gYXR0ZW1wdCB0byBrZWVwIGFsbCBjb25maWd1cmF0aW9uIGluIG9uZSBwbGFjZSwgY3NzIHZhcmlhYmxlc1xuLy8gYXJlIGN1cnJlbnRseSBzdG9yZWQgaW4gY29uZmlnLnltbC4gTW92ZSB0aGVzZSB2YXJpYWJsZXMgaW50byBhXG4vLyB2YXJpYWJsZXMgZmlsZSBpbiB0aGlzIHN0eWxlLyBkaXJlY3RvcnkgaWYgdGhhdCBpcyB5b3VyIHByZWZlcmVuY2UuXG5pbXBvcnQgeyBjb25maWcgfSBmcm9tIFwiLi4vY29uZmlnL2NvbmZpZy55bWxcIjtcblxuLy8gdXNlZCBpbiBwYWdlcy9hYm91dC5qcywgcGFnZXMvaW5kZXguanNcbmV4cG9ydCBjb25zdCBjZW50ZXJlZFBhZ2VTdHlsZXMgPSBjc3NgXG4gIC5jZW50ZXJlZC1jb250YWluZXIge1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogOTh2dztcbiAgICBtYXJnaW46IGF1dG87XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIH1cbmA7XG5cbi8vIHVzZWQgaW4gX2FwcC5qc1xuZXhwb3J0IGNvbnN0IGdsb2JhbFN0eWxlcyA9IGNzcy5nbG9iYWxgXG4gIEBmb250LWZhY2Uge1xuICAgIGZvbnQtZmFtaWx5OiBcIlZvbGxrb3JuXCIsIHNlcmlmO1xuICAgIGZvbnQtZGlzcGxheTogYXV0bzsgLyogSW1wb3J0YW50IGZvciBwZXJmb3JtYW5jZSAqL1xuICAgIHNyYzogdXJsKFwiL3N0YXRpYy9mb250cy92b2xsa29ybi53b2ZmMlwiKSBmb3JtYXQoXCJ3b2ZmMlwiKTtcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gIH1cbiAgaHRtbCB7XG4gICAgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7XG4gIH1cbiAgYm9keSB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHRvcDogMDtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZzogMDtcbiAgICBjb2xvcjogJHtjb25maWcuY3NzLmJsYWNrfTtcbiAgfVxuICAjX19uZXh0IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgZmxleDogMTtcbiAgICBtaW4taGVpZ2h0OiAxMDB2aDtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDk4dnc7XG4gIH1cbiAgLmZvb3RlciB7XG4gICAgZm9udC1mYW1pbHk6IFwiT3BlbiBTYW5zXCIsIHNhbnMtc2VyaWY7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICBoZWlnaHQ6IDgwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgYm9yZGVyLXRvcDogMnB4IHNvbGlkICR7Y29uZmlnLmNzcy5saWdodEdyYXl9O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIHBhZGRpbmc6IDIlO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIGJvdHRvbTogMDtcbiAgfVxuICBzdHJvbmcsXG4gIGgxLFxuICBoMSA+ICosXG4gIGgyLFxuICBoMiA+ICosXG4gIGgzLFxuICBoMyA+ICosXG4gIGg0LFxuICBoNCA+ICosXG4gIGg1LFxuICBoNSA+ICosXG4gIGg2LFxuICBoNiA+ICoge1xuICAgIGZvbnQtZmFtaWx5OiBcIlZvbGxrb3JuXCIsIHNlcmlmO1xuICAgIGxldHRlci1zcGFjaW5nOiAycHg7XG4gICAgZm9udC1zaXplOiAyMnB4OyBcbiAgfVxuICBzdHJvbmcge1xuICAgIGNvbG9yOiAke2NvbmZpZy5jc3MuYWNjZW50Q29sb3J9O1xuICB9XG4gIC5zZWFyY2gtbGF5b3V0LFxuICAuYmxvZy1sYXlvdXQsXG4gIC5ibG9nLXBvc3QtbGlzdCB7XG4gICAgbWF4LXdpZHRoOiA3NDBweDtcbiAgICBwYWRkaW5nOiA0MHB4IDIwcHggMTAwcHggMjBweDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIH1cbiAgLmJsb2ctbGF5b3V0IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIHdpZHRoOiA5OHZ3O1xuICB9XG4gIGltZyB7XG4gICAgbWF4LXdpZHRoOiAxMDAlO1xuICB9XG4gIGltZy5pbWctY2VudGVyZWQge1xuICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcbiAgICBtYXJnaW46IDEwcHggMHB4O1xuICB9XG4gIC5pY29uLWJ1dHRvbiB7XG4gICAgb3V0bGluZTogbm9uZTtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgYmFja2dyb3VuZDogJHtjb25maWcuY3NzLmJhY2tncm91bmRDb2xvcn07XG4gIH1cbiAgLmljb24tYnV0dG9uLmhhbWJ1cmdlciB7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIGxlZnQ6IDBweDtcbiAgICB0b3A6IDBweDtcbiAgICB6LWluZGV4OiAzOyAvKiB0aGUgbmF2aWdhdGlvbiBtZW51IGlzIHotaW5kZXg6IDQgKi9cbiAgICBib3JkZXI6IDFweCBzb2xpZCAke2NvbmZpZy5jc3MubGlnaHRHcmF5fTtcbiAgICBwYWRkaW5nLXRvcDogNHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgfVxuICBhIHtcbiAgICBjb2xvcjogJHtjb25maWcuY3NzLmFjY2VudENvbG9yfTtcbiAgfVxuICBsYWJlbCB7XG4gICAgY29sb3I6ICR7Y29uZmlnLmNzcy5ibGFja307XG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gIH1cbiAgLnBvc3QtZGF0ZSB7XG4gICAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XG4gICAgZm9udC1zaXplOiAxNnB4O1xuICB9XG4gIHAsXG4gIHAgYSxcbiAgYixcbiAgZW0sXG4gIHNwYW4sXG4gIGxpLFxuICB1bCxcbiAgb2wge1xuICAgIGZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiLCBzYW5zLXNlcmlmO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICBsaW5lLWhlaWdodDogMTYwJTtcbiAgICB3b3JkLWJyZWFrOiBicmVhay13b3JkOyAvKiBUaGlzIHByZXZlbnRzIGEgYnVnIHdpdGggdGhlIHJlYWRpbmcgcHJvZ3Jlc3MgYmFyLiBMZWF2ZSB0aGlzIHN0eWxlIGhlcmUgdW5sZXNzIHlvdSBhcmUgcmVtb3ZpbmcgdGhlIHJlYWRpbmcgcHJvZ3Jlc3MgYmFyLiAqL1xuICB9XG4gIGNvZGUge1xuICAgIGZvbnQtc2l6ZTogMTRweDsgXG4gICAgYmFja2dyb3VuZDogcmdiYSgwLDAsMCwuMDUpOyBcbiAgICBtYXJnaW4tYm90dG9tOiAxLjVlbTtcbiAgICBvdmVyZmxvdzogYXV0bztcbiAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgcGFkZGluZzogMjBweDtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IFxuICB9XG5cbiAgY29kZSA+IHNwYW4ge1xuICAgIGZvbnQtc2l6ZTogaW5oZXJpdDsgLyogbWFrZSBzdXJlIGNvZGUgZm9udCBzaXplIGlzIHNldCBpbiA8Q29kZUJsb2NrIC8+ICovXG4gICAgYmFja2dyb3VuZDogaW5oZXJpdCAhaW1wb3J0YW50OyAvKiBGaXhlcyBjb2RlIGJsb2NrIHN0eWxlIGJ1ZyovXG4gIH1cbmA7XG4iXX0= */
 /*@ sourceURL=/home/wajari/dev/blog-next/styles/index.js */`);
-globalStyles.__hash = "2456469410";
+globalStyles.__hash = "1765012512";
 
 /***/ }),
 
