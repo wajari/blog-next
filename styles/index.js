@@ -51,10 +51,9 @@ export const globalStyles = css.global`
     width: 100%;
     border-top: 2px solid ${config.css.lightGray};
     display: block;
-    padding: 2%;
+    padding: 10px;
     text-align: center;
     justify-content: center;
-    
     font-size: 16px;
     position: fixed;
     bottom: 0;
