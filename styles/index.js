@@ -8,13 +8,14 @@ import { config } from "../config/config.yml";
 // used in pages/about.js, pages/index.js
 export const centeredPageStyles = css`
   .centered-container {
-    height: 80vh;
+    display: flex;
     width: 98vw;
     margin: auto;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
+    padding-bottom: 100px;
   }
 `;
 
@@ -41,7 +42,6 @@ export const globalStyles = css.global`
     flex-direction: column;
     flex: 1;
     min-height: 100vh;
-    height: 80vh;
     width: 98vw;
   }
   .footer {
@@ -73,7 +73,7 @@ export const globalStyles = css.global`
   h6 > * {
     font-family: "Vollkorn", serif;
     letter-spacing: 2px;
-    font-size: 22px; 
+    font-size: 22px;
   }
   strong {
     color: ${config.css.accentColor};
@@ -139,17 +139,21 @@ export const globalStyles = css.global`
     word-break: break-word; /* This prevents a bug with the reading progress bar. Leave this style here unless you are removing the reading progress bar. */
   }
   code {
-    font-size: 14px; 
-    background: rgba(0,0,0,.05); 
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.05);
     margin-bottom: 1.5em;
     overflow: auto;
     max-width: 100%;
     padding: 20px;
-    display: inline-block; 
+    display: inline-block;
   }
 
   code > span {
     font-size: inherit; /* make sure code font size is set in <CodeBlock /> */
     background: inherit !important; /* Fixes code block style bug*/
+  }
+
+  .espaciado {
+    margin: 10px;
   }
 `;
