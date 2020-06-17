@@ -16,6 +16,7 @@ export const centeredPageStyles = css`
     flex-direction: column;
     height: 100%;
     padding-bottom: 100px;
+    padding-left: 7px;
   }
 `;
 
@@ -154,6 +155,21 @@ export const globalStyles = css.global`
   }
 
   .espaciado {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+  .espaciado > div {
     margin: 10px;
+    padding: 10px;
+  }
+  .espaciado-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+  .espaciado-1 > div {
+    margin: 5px;
+    padding: 5px;
   }
 `;
