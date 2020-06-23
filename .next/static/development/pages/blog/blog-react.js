@@ -6083,7 +6083,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblog%2Fblog-react&absolutePagePath=%2Fhome%2Fwajari%2Fdev%2Fblog-next%2Fpages%2Fblog%2Fblog-react.mdx ***!
   \****************************************************************************************************************************************************/
@@ -6106,4 +6106,4 @@ eval("module.exports = dll_bc0d5849ba5e3f817896;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);

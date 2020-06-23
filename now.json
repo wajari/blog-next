@@ -1,9 +1,12 @@
 {
-    "version": 2,
-    "name": "Wajari.dev",
-    "alias": "wajari.dev",
-    "builds": [{
-        "src": "package.json",
-        "use": "@now/static-build"
-    }]
+  "version": 2,
+  "name": "Wajari.dev",
+  "alias": "wajari.dev",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ],
+  "cleanUrls": true
 }
