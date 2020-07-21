@@ -1,0 +1,44 @@
+import BlogMeta from "../../components/BlogMeta";
+import { NextSeo } from 'next-seo';
+
+export const meta = {
+    title: ["Update about 404 errors with now.json file"],
+    tags: ["next"],
+    layout: "post",
+    publishDate: "2020-07-21",
+    modifiedDate: false, 
+    seoDescription: "Explanation of how to solve the 404 error when refreshing the Next.js page",
+    exclude: false,
+    hideProgressBar: false,
+}
+
+<NextSeo
+      title="Update about 404 errors with now.json file | Wajari.Dev" 
+      description= "Explanation of how to solve the 404 error when refreshing the Next.js page"
+      canonical="https://wajari.dev/blog/now-cleanurls"
+      />
+
+<BlogMeta data={props} />
+
+## I have 404 errors on my blog, but 
+
+I was excited to launch my blog on next.js, I managed to solve almost the whole process and I was stuck in nonsense for too long.
+
+I was reading on forums and in the documentation and other people had 404 failures when refreshing the page, but it only happens in development environment, 
+not local.
+
+These two issues described well what was happening to me:
+
+- [404 errors with dynamic routes](https://github.com/vercel/vercel/issues/3294)
+- [Refresh page & 404 bug](https://github.com/vercel/next-site/issues/192)
+
+Thanks to [Anxo](https://es.linkedin.com/in/mancontr/es-es), my React teacher, He detected the bug. It's as simple as I didn't put the cleanUrls parameter 
+in the now.json file:
+
+~~~
+"cleanUrls": true
+~~~
+
+Unbelievable! 
+
+I hope it helps you if the same happens to you.

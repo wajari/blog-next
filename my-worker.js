@@ -23,6 +23,7 @@ const precacheFiles = [
   "/blog/post-three-smooth-scroll-and-reading-progress-bar",
   "/blog/post-four-link-on-twitter",
   "/blog/blog-react",
+  "/blog/now-cleanurls",
 ];
 
 self.addEventListener("install", (e) => {
